@@ -80,7 +80,7 @@ pip install torch torchvision pandas numpy scikit-learn timm pyyaml tqdm pillow
 
 ## Kết quả mẫu
 
-Mô hình phân loại được đánh giá trên tập test với các chỉ số sau (ngày 20/05/2025):
+Mô hình phân loại được đánh giá trên tập test với các chỉ số sau:
 
 | Bệnh lý               | AUC        | Accuracy   | 
 |-----------------------|------------|------------|
