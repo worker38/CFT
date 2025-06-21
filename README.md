@@ -82,14 +82,14 @@ pip install torch torchvision pandas numpy scikit-learn timm pyyaml tqdm pillow
 
 Mô hình phân loại được đánh giá trên tập test với các chỉ số sau (ngày 20/05/2025):
 
-| Bệnh lý               | AUC        | Accuracy   | F1 Score   | 
-|-----------------------|------------|------------|------------|
-| Tăng kích thước tim   | 0.8769     | 0.9418     | 0.4200     | 
-| Tràn dịch màng phổi   | 0.8781     | 0.8344     | 0.6488     |
-| Xẹp phổi              | 0.8042     | 0.7848     | 0.5131     | 
-| Tràn khí màng phổi    | 0.8698     | 0.9287     | 0.4828     |
-| Thâm nhiễm            | 0.7160     | 0.6883     | 0.5370     | 
-| **Trung bình**        | **0.8290** | **0.8356** | **0.5203** |
+| Bệnh lý               | AUC        | Accuracy   | 
+|-----------------------|------------|------------|
+| Cardiomegaly          | 0.8769     | 0.9418     | 
+| Effusion              | 0.8781     | 0.8344     |
+| Atelectasis           | 0.8042     | 0.7848     | 
+| Pneumothorax          | 0.8698     | 0.9287     | 
+| Infiltration          | 0.7160     | 0.6883     |
+| **Trung bình**        | **0.8290** | **0.8356** | 
 
 ## Lưu ý
 
