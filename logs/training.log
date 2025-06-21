@@ -1,0 +1,1311 @@
+2025-05-11 22:55:38,441 - INFO - Train: 17604, Val: 2666, Test: 5094
+2025-05-11 22:55:38,744 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-11 22:57:28,020 - INFO - Epoch 1/20, Loss: 0.4017, Val Mean AUC: 0.8050, Val Mean ACC: 0.8435, Val Mean F1: 0.4543
+Val AUC per class: 0.7078, 0.8020, 0.7928, 0.8874, 0.8349
+Val ACC per class: 0.9284, 0.7326, 0.7266, 0.9246, 0.9055
+Val F1 per class: 0.0000, 0.7522, 0.6738, 0.5379, 0.3077
+2025-05-11 22:58:57,905 - INFO - Epoch 2/20, Loss: 0.3588, Val Mean AUC: 0.8214, Val Mean ACC: 0.8390, Val Mean F1: 0.4835
+Val AUC per class: 0.7569, 0.8092, 0.8032, 0.9118, 0.8258
+Val ACC per class: 0.9284, 0.7266, 0.7254, 0.9302, 0.8845
+Val F1 per class: 0.0000, 0.7202, 0.6531, 0.6409, 0.4031
+2025-05-11 23:00:44,968 - INFO - Train: 17604, Val: 2666, Test: 5094
+2025-05-11 23:00:45,163 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-11 23:02:15,630 - INFO - Epoch 1/20, Loss: 0.4046, Val Mean AUC: 0.8046, Val Mean ACC: 0.8417, Val Mean F1: 0.4498
+Val AUC per class: 0.7375, 0.7935, 0.7853, 0.8818, 0.8247
+Val ACC per class: 0.9284, 0.7247, 0.7176, 0.9329, 0.9051
+Val F1 per class: 0.0000, 0.7417, 0.6551, 0.6167, 0.2356
+Train Time: 72.20s, Val Time: 18.26s, Total Epoch Time: 90.47s
+2025-05-11 23:03:53,254 - INFO - Epoch 2/20, Loss: 0.3597, Val Mean AUC: 0.8153, Val Mean ACC: 0.8446, Val Mean F1: 0.4570
+Val AUC per class: 0.7356, 0.8119, 0.7910, 0.9071, 0.8308
+Val ACC per class: 0.9284, 0.7337, 0.7202, 0.9280, 0.9126
+Val F1 per class: 0.0000, 0.7339, 0.6997, 0.5771, 0.2741
+Train Time: 76.68s, Val Time: 20.89s, Total Epoch Time: 97.59s
+2025-05-11 23:05:28,091 - INFO - Epoch 3/20, Loss: 0.3460, Val Mean AUC: 0.8204, Val Mean ACC: 0.8467, Val Mean F1: 0.4772
+Val AUC per class: 0.7404, 0.8163, 0.8039, 0.9172, 0.8241
+Val ACC per class: 0.9284, 0.7472, 0.7217, 0.9317, 0.9047
+Val F1 per class: 0.0000, 0.7600, 0.6818, 0.6270, 0.3172
+Train Time: 76.32s, Val Time: 18.45s, Total Epoch Time: 94.78s
+2025-05-11 23:06:58,360 - INFO - Epoch 4/20, Loss: 0.3349, Val Mean AUC: 0.8132, Val Mean ACC: 0.8482, Val Mean F1: 0.4741
+Val AUC per class: 0.7181, 0.8171, 0.8001, 0.9137, 0.8172
+Val ACC per class: 0.9284, 0.7449, 0.7232, 0.9374, 0.9074
+Val F1 per class: 0.0000, 0.7595, 0.6435, 0.6795, 0.2882
+Train Time: 72.03s, Val Time: 18.20s, Total Epoch Time: 90.24s
+2025-05-11 23:08:25,000 - INFO - Epoch 5/20, Loss: 0.3224, Val Mean AUC: 0.8226, Val Mean ACC: 0.8512, Val Mean F1: 0.4985
+Val AUC per class: 0.7292, 0.8258, 0.8032, 0.9097, 0.8452
+Val ACC per class: 0.9257, 0.7584, 0.7232, 0.9340, 0.9149
+Val F1 per class: 0.0571, 0.7618, 0.6868, 0.6333, 0.3533
+Train Time: 68.25s, Val Time: 18.38s, Total Epoch Time: 86.64s
+2025-05-11 23:09:57,851 - INFO - Epoch 6/20, Loss: 0.3124, Val Mean AUC: 0.8208, Val Mean ACC: 0.8472, Val Mean F1: 0.5275
+Val AUC per class: 0.7264, 0.8204, 0.8011, 0.9183, 0.8378
+Val ACC per class: 0.9242, 0.7554, 0.7262, 0.9261, 0.9040
+Val F1 per class: 0.1583, 0.7617, 0.6679, 0.6476, 0.4019
+Train Time: 74.25s, Val Time: 18.56s, Total Epoch Time: 92.82s
+2025-05-11 23:11:26,140 - INFO - Epoch 7/20, Loss: 0.2988, Val Mean AUC: 0.8152, Val Mean ACC: 0.8416, Val Mean F1: 0.5042
+Val AUC per class: 0.7229, 0.8118, 0.7993, 0.9139, 0.8283
+Val ACC per class: 0.9197, 0.7427, 0.7213, 0.9239, 0.9006
+Val F1 per class: 0.0776, 0.7583, 0.6377, 0.6482, 0.3991
+Train Time: 69.71s, Val Time: 18.57s, Total Epoch Time: 88.29s
+2025-05-11 23:12:52,410 - INFO - Epoch 8/20, Loss: 0.2867, Val Mean AUC: 0.8087, Val Mean ACC: 0.8418, Val Mean F1: 0.5013
+Val AUC per class: 0.7239, 0.8029, 0.7903, 0.9009, 0.8255
+Val ACC per class: 0.9250, 0.7292, 0.7161, 0.9302, 0.9085
+Val F1 per class: 0.0826, 0.7521, 0.6601, 0.6310, 0.3807
+Train Time: 68.37s, Val Time: 17.90s, Total Epoch Time: 86.27s
+2025-05-11 23:14:21,867 - INFO - Epoch 9/20, Loss: 0.2726, Val Mean AUC: 0.8068, Val Mean ACC: 0.8416, Val Mean F1: 0.5351
+Val AUC per class: 0.7065, 0.8100, 0.7878, 0.9035, 0.8264
+Val ACC per class: 0.9227, 0.7401, 0.7112, 0.9295, 0.9044
+Val F1 per class: 0.1890, 0.7566, 0.6487, 0.6439, 0.4371
+Train Time: 72.04s, Val Time: 17.41s, Total Epoch Time: 89.46s
+2025-05-11 23:15:45,564 - INFO - Epoch 10/20, Loss: 0.2573, Val Mean AUC: 0.8092, Val Mean ACC: 0.8386, Val Mean F1: 0.5213
+Val AUC per class: 0.7200, 0.8078, 0.7947, 0.8882, 0.8354
+Val ACC per class: 0.9220, 0.7359, 0.7217, 0.9257, 0.8878
+Val F1 per class: 0.1811, 0.7442, 0.6796, 0.6207, 0.3810
+Train Time: 66.41s, Val Time: 17.28s, Total Epoch Time: 83.70s
+2025-05-11 23:15:45,565 - INFO - Early stopping!
+2025-05-11 23:15:45,565 - INFO - 
+Training Summary:
+Total Training Time: 716.25s
+Total Validation Time: 183.89s
+Total Time: 900.25s
+Average Epoch Time: 90.02s
+2025-05-11 23:15:45,565 - INFO - Training completed. Run test.py to evaluate on val or test set.
+2025-05-11 23:29:47,091 - INFO - Train: 17604, Val: 2666, Test: 5094
+2025-05-11 23:29:47,271 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-11 23:31:07,461 - INFO - Epoch 1/20, Loss: 0.4234, Val Mean AUC: 0.7899, Val Mean ACC: 0.7743, Val Mean F1: 0.5215
+Val AUC per class: 0.6923, 0.7859, 0.7676, 0.8734, 0.8305
+Val ACC per class: 0.8061, 0.6988, 0.6485, 0.8882, 0.8297
+Val F1 per class: 0.2131, 0.7498, 0.6833, 0.5539, 0.4073
+Train Time: 63.40s, Val Time: 16.76s, Total Epoch Time: 80.19s
+2025-05-11 23:32:29,409 - INFO - Epoch 2/20, Loss: 0.3753, Val Mean AUC: 0.8128, Val Mean ACC: 0.7982, Val Mean F1: 0.5431
+Val AUC per class: 0.7369, 0.8037, 0.7849, 0.8981, 0.8404
+Val ACC per class: 0.8046, 0.7074, 0.6943, 0.9231, 0.8616
+Val F1 per class: 0.2349, 0.7591, 0.6978, 0.6139, 0.4096
+Train Time: 65.96s, Val Time: 15.93s, Total Epoch Time: 81.92s
+2025-05-11 23:33:49,657 - INFO - Epoch 3/20, Loss: 0.3620, Val Mean AUC: 0.8177, Val Mean ACC: 0.8137, Val Mean F1: 0.5598
+Val AUC per class: 0.7336, 0.8118, 0.7926, 0.9129, 0.8378
+Val ACC per class: 0.8327, 0.7078, 0.7176, 0.9310, 0.8796
+Val F1 per class: 0.2542, 0.7623, 0.7092, 0.6515, 0.4216
+Train Time: 62.97s, Val Time: 17.22s, Total Epoch Time: 80.22s
+2025-05-11 23:35:11,245 - INFO - Epoch 4/20, Loss: 0.3542, Val Mean AUC: 0.8161, Val Mean ACC: 0.7928, Val Mean F1: 0.5558
+Val AUC per class: 0.7286, 0.8106, 0.7976, 0.9063, 0.8374
+Val ACC per class: 0.7941, 0.7213, 0.6658, 0.9130, 0.8698
+Val F1 per class: 0.2490, 0.7673, 0.7047, 0.6352, 0.4226
+Train Time: 65.03s, Val Time: 16.49s, Total Epoch Time: 81.55s
+2025-05-11 23:36:34,512 - INFO - Epoch 5/20, Loss: 0.3479, Val Mean AUC: 0.8222, Val Mean ACC: 0.8018, Val Mean F1: 0.5592
+Val AUC per class: 0.7481, 0.8219, 0.8019, 0.9141, 0.8248
+Val ACC per class: 0.7858, 0.7423, 0.6695, 0.9329, 0.8785
+Val F1 per class: 0.2516, 0.7712, 0.7023, 0.6577, 0.4130
+Train Time: 66.24s, Val Time: 16.99s, Total Epoch Time: 83.27s
+2025-05-11 23:37:53,296 - INFO - Epoch 6/20, Loss: 0.3428, Val Mean AUC: 0.8214, Val Mean ACC: 0.8029, Val Mean F1: 0.5600
+Val AUC per class: 0.7323, 0.8211, 0.8076, 0.9108, 0.8350
+Val ACC per class: 0.8102, 0.7322, 0.6965, 0.9186, 0.8567
+Val F1 per class: 0.2515, 0.7704, 0.7160, 0.6425, 0.4195
+Train Time: 62.61s, Val Time: 16.11s, Total Epoch Time: 78.76s
+2025-05-11 23:39:11,955 - INFO - Epoch 7/20, Loss: 0.3371, Val Mean AUC: 0.8286, Val Mean ACC: 0.8146, Val Mean F1: 0.5735
+Val AUC per class: 0.7530, 0.8248, 0.8040, 0.9144, 0.8468
+Val ACC per class: 0.8241, 0.7502, 0.6947, 0.9340, 0.8702
+Val F1 per class: 0.2683, 0.7692, 0.7124, 0.6812, 0.4365
+Train Time: 62.61s, Val Time: 16.02s, Total Epoch Time: 78.66s
+2025-05-11 23:40:30,484 - INFO - Epoch 8/20, Loss: 0.3317, Val Mean AUC: 0.8234, Val Mean ACC: 0.8090, Val Mean F1: 0.5629
+Val AUC per class: 0.7435, 0.8257, 0.7947, 0.9076, 0.8453
+Val ACC per class: 0.7839, 0.7457, 0.6917, 0.9287, 0.8950
+Val F1 per class: 0.2539, 0.7781, 0.7052, 0.6558, 0.4215
+Train Time: 62.28s, Val Time: 16.19s, Total Epoch Time: 78.50s
+2025-05-11 23:41:49,004 - INFO - Epoch 9/20, Loss: 0.3271, Val Mean AUC: 0.8210, Val Mean ACC: 0.8125, Val Mean F1: 0.5608
+Val AUC per class: 0.7373, 0.8237, 0.8007, 0.9098, 0.8334
+Val ACC per class: 0.7926, 0.7476, 0.7097, 0.9329, 0.8796
+Val F1 per class: 0.2597, 0.7723, 0.7101, 0.6551, 0.4067
+Train Time: 62.34s, Val Time: 16.14s, Total Epoch Time: 78.52s
+2025-05-11 23:43:09,612 - INFO - Epoch 10/20, Loss: 0.3224, Val Mean AUC: 0.8222, Val Mean ACC: 0.7953, Val Mean F1: 0.5673
+Val AUC per class: 0.7509, 0.8209, 0.7992, 0.9099, 0.8302
+Val ACC per class: 0.7746, 0.7179, 0.6995, 0.9276, 0.8567
+Val F1 per class: 0.2802, 0.7683, 0.7021, 0.6596, 0.4264
+Train Time: 64.57s, Val Time: 16.00s, Total Epoch Time: 80.61s
+2025-05-11 23:44:29,052 - INFO - Epoch 11/20, Loss: 0.3183, Val Mean AUC: 0.8181, Val Mean ACC: 0.7980, Val Mean F1: 0.5636
+Val AUC per class: 0.7361, 0.8209, 0.8014, 0.9107, 0.8216
+Val ACC per class: 0.7749, 0.7367, 0.6917, 0.9374, 0.8492
+Val F1 per class: 0.2556, 0.7725, 0.7085, 0.6831, 0.3982
+Train Time: 63.22s, Val Time: 16.19s, Total Epoch Time: 79.44s
+2025-05-11 23:45:49,195 - INFO - Epoch 12/20, Loss: 0.3134, Val Mean AUC: 0.8244, Val Mean ACC: 0.8074, Val Mean F1: 0.5657
+Val AUC per class: 0.7412, 0.8296, 0.8037, 0.9092, 0.8382
+Val ACC per class: 0.7993, 0.7412, 0.6860, 0.9332, 0.8770
+Val F1 per class: 0.2780, 0.7739, 0.7083, 0.6603, 0.4079
+Train Time: 64.01s, Val Time: 16.10s, Total Epoch Time: 80.14s
+2025-05-11 23:47:09,215 - INFO - Epoch 13/20, Loss: 0.3074, Val Mean AUC: 0.8178, Val Mean ACC: 0.7908, Val Mean F1: 0.5658
+Val AUC per class: 0.7327, 0.8200, 0.7977, 0.9052, 0.8332
+Val ACC per class: 0.7614, 0.7314, 0.6530, 0.9291, 0.8792
+Val F1 per class: 0.2622, 0.7684, 0.7011, 0.6724, 0.4250
+Train Time: 63.39s, Val Time: 16.60s, Total Epoch Time: 80.02s
+2025-05-11 23:48:28,551 - INFO - Epoch 14/20, Loss: 0.3021, Val Mean AUC: 0.8199, Val Mean ACC: 0.8035, Val Mean F1: 0.5659
+Val AUC per class: 0.7365, 0.8228, 0.7984, 0.9033, 0.8382
+Val ACC per class: 0.7858, 0.7509, 0.6797, 0.9246, 0.8766
+Val F1 per class: 0.2689, 0.7748, 0.7055, 0.6564, 0.4238
+Train Time: 63.29s, Val Time: 16.02s, Total Epoch Time: 79.34s
+2025-05-11 23:49:48,112 - INFO - Epoch 15/20, Loss: 0.2971, Val Mean AUC: 0.8185, Val Mean ACC: 0.8016, Val Mean F1: 0.5594
+Val AUC per class: 0.7227, 0.8149, 0.8001, 0.9124, 0.8426
+Val ACC per class: 0.7693, 0.7299, 0.6733, 0.9291, 0.9062
+Val F1 per class: 0.2581, 0.7658, 0.7052, 0.6545, 0.4131
+Train Time: 63.27s, Val Time: 16.26s, Total Epoch Time: 79.56s
+2025-05-11 23:51:11,936 - INFO - Epoch 16/20, Loss: 0.2922, Val Mean AUC: 0.8101, Val Mean ACC: 0.8217, Val Mean F1: 0.5571
+Val AUC per class: 0.7053, 0.8213, 0.7967, 0.9061, 0.8212
+Val ACC per class: 0.8886, 0.7483, 0.6838, 0.9280, 0.8597
+Val F1 per class: 0.2594, 0.7684, 0.7068, 0.6336, 0.4174
+Train Time: 66.71s, Val Time: 17.07s, Total Epoch Time: 83.82s
+2025-05-11 23:52:33,847 - INFO - Epoch 17/20, Loss: 0.2863, Val Mean AUC: 0.8064, Val Mean ACC: 0.8158, Val Mean F1: 0.5566
+Val AUC per class: 0.6977, 0.8143, 0.7906, 0.9056, 0.8238
+Val ACC per class: 0.8702, 0.7374, 0.6553, 0.9224, 0.8938
+Val F1 per class: 0.2511, 0.7667, 0.7002, 0.6462, 0.4189
+Train Time: 64.80s, Val Time: 17.07s, Total Epoch Time: 81.91s
+2025-05-11 23:52:33,847 - INFO - Early stopping!
+2025-05-11 23:52:33,848 - INFO - 
+Training Summary:
+Total Training Time: 1086.69s
+Total Validation Time: 279.14s
+Total Time: 1366.43s
+Average Epoch Time: 80.38s
+2025-05-11 23:52:33,849 - INFO - Training completed. Run test.py to evaluate on val or test set.
+2025-05-12 00:12:57,636 - INFO - 
+Test Results:
+2025-05-12 00:12:57,645 - INFO - Edema:
+  AUC: 0.8701 (Benchmark: N/A)
+  Accuracy: 0.9054
+  F1 Score: 0.4958
+2025-05-12 00:12:57,645 - INFO - Mean Results:
+  Mean AUC: 0.8104
+  Mean ACC: 0.8193
+  Mean F1: 0.5537
+Evaluation Time: 28.75s
+2025-05-12 00:17:47,641 - INFO - 
+Test Results:
+2025-05-12 00:17:47,641 - INFO - Pneumonia:
+  AUC: 0.6631 (Benchmark: 0.6333)
+  Accuracy: 0.8298
+  F1 Score: 0.1844
+  -> Surpassed benchmark!
+2025-05-12 00:17:47,641 - INFO - Effusion:
+  AUC: 0.8285 (Benchmark: 0.7362)
+  Accuracy: 0.7377
+  F1 Score: 0.7625
+  -> Surpassed benchmark!
+2025-05-12 00:17:47,641 - INFO - Atelectasis:
+  AUC: 0.7821 (Benchmark: 0.7069)
+  Accuracy: 0.7030
+  F1 Score: 0.7019
+  -> Surpassed benchmark!
+2025-05-12 00:17:47,642 - INFO - Cardiomegaly:
+  AUC: 0.9080 (Benchmark: 0.8141)
+  Accuracy: 0.9205
+  F1 Score: 0.6240
+  -> Surpassed benchmark!
+2025-05-12 00:17:47,642 - INFO - Edema:
+  AUC: 0.8701 (Benchmark: N/A)
+  Accuracy: 0.9054
+  F1 Score: 0.4958
+2025-05-12 00:17:47,642 - INFO - Mean Results:
+  Mean AUC: 0.8104
+  Mean ACC: 0.8193
+  Mean F1: 0.5537
+Evaluation Time: 22.94s
+2025-05-12 22:29:43,206 - INFO - Train: 21171, Val: 3036, Test: 6157
+2025-05-12 22:29:43,531 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-12 22:31:42,541 - INFO - Epoch 1/20, Loss: 0.3957, Val Mean AUC: 0.7576, Val Mean ACC: 0.7760, Val Mean F1: 0.4535
+Val AUC per class: 0.6352, 0.8003, 0.6875, 0.8196, 0.8454
+Val ACC per class: 0.8465, 0.7006, 0.5876, 0.8534, 0.8920
+Val F1 per class: 0.1649, 0.7065, 0.6030, 0.4213, 0.3716
+Train Time: 95.98s, Val Time: 22.98s, Total Epoch Time: 119.01s
+2025-05-12 22:33:16,522 - INFO - Epoch 2/20, Loss: 0.3509, Val Mean AUC: 0.7910, Val Mean ACC: 0.7964, Val Mean F1: 0.4904
+Val AUC per class: 0.6763, 0.8291, 0.7215, 0.8624, 0.8658
+Val ACC per class: 0.8165, 0.7516, 0.6229, 0.8953, 0.8959
+Val F1 per class: 0.1962, 0.7330, 0.6174, 0.4968, 0.4082
+Train Time: 74.26s, Val Time: 19.66s, Total Epoch Time: 93.95s
+2025-05-12 22:34:47,980 - INFO - Epoch 3/20, Loss: 0.3396, Val Mean AUC: 0.8025, Val Mean ACC: 0.8165, Val Mean F1: 0.5066
+Val AUC per class: 0.6914, 0.8380, 0.7341, 0.8822, 0.8669
+Val ACC per class: 0.8735, 0.7678, 0.6364, 0.9097, 0.8949
+Val F1 per class: 0.2227, 0.7353, 0.6288, 0.5276, 0.4189
+Train Time: 72.81s, Val Time: 18.57s, Total Epoch Time: 91.42s
+2025-05-12 22:36:17,688 - INFO - Epoch 4/20, Loss: 0.3326, Val Mean AUC: 0.7969, Val Mean ACC: 0.8240, Val Mean F1: 0.5063
+Val AUC per class: 0.6674, 0.8410, 0.7390, 0.8715, 0.8659
+Val ACC per class: 0.8877, 0.7684, 0.6532, 0.9130, 0.8976
+Val F1 per class: 0.2088, 0.7372, 0.6332, 0.5541, 0.3985
+Train Time: 70.78s, Val Time: 18.86s, Total Epoch Time: 89.68s
+2025-05-12 22:37:50,137 - INFO - Epoch 5/20, Loss: 0.3279, Val Mean AUC: 0.8087, Val Mean ACC: 0.8171, Val Mean F1: 0.5126
+Val AUC per class: 0.7054, 0.8419, 0.7395, 0.8823, 0.8746
+Val ACC per class: 0.8633, 0.7500, 0.6377, 0.9239, 0.9107
+Val F1 per class: 0.2155, 0.7426, 0.6279, 0.5549, 0.4222
+Train Time: 73.76s, Val Time: 18.65s, Total Epoch Time: 92.45s
+2025-05-12 22:39:20,816 - INFO - Epoch 6/20, Loss: 0.3227, Val Mean AUC: 0.8056, Val Mean ACC: 0.8249, Val Mean F1: 0.5170
+Val AUC per class: 0.6784, 0.8436, 0.7490, 0.8772, 0.8800
+Val ACC per class: 0.8893, 0.7711, 0.6288, 0.9315, 0.9038
+Val F1 per class: 0.2222, 0.7494, 0.6366, 0.5630, 0.4137
+Train Time: 71.82s, Val Time: 18.79s, Total Epoch Time: 90.65s
+2025-05-12 22:40:49,806 - INFO - Epoch 7/20, Loss: 0.3153, Val Mean AUC: 0.8070, Val Mean ACC: 0.8172, Val Mean F1: 0.5112
+Val AUC per class: 0.6769, 0.8482, 0.7472, 0.8874, 0.8750
+Val ACC per class: 0.8597, 0.7717, 0.6410, 0.9259, 0.8877
+Val F1 per class: 0.1962, 0.7405, 0.6372, 0.5648, 0.4171
+Train Time: 70.62s, Val Time: 18.33s, Total Epoch Time: 88.99s
+2025-05-12 22:42:18,635 - INFO - Epoch 8/20, Loss: 0.3129, Val Mean AUC: 0.8072, Val Mean ACC: 0.8321, Val Mean F1: 0.5061
+Val AUC per class: 0.6805, 0.8490, 0.7499, 0.8803, 0.8765
+Val ACC per class: 0.9285, 0.7632, 0.6634, 0.9216, 0.8837
+Val F1 per class: 0.1873, 0.7435, 0.6373, 0.5576, 0.4047
+Train Time: 70.32s, Val Time: 18.47s, Total Epoch Time: 88.83s
+2025-05-12 22:43:47,170 - INFO - Epoch 9/20, Loss: 0.3084, Val Mean AUC: 0.8018, Val Mean ACC: 0.8182, Val Mean F1: 0.5052
+Val AUC per class: 0.6568, 0.8420, 0.7474, 0.8839, 0.8791
+Val ACC per class: 0.8887, 0.7381, 0.6403, 0.9285, 0.8953
+Val F1 per class: 0.1796, 0.7333, 0.6379, 0.5598, 0.4154
+Train Time: 70.03s, Val Time: 18.47s, Total Epoch Time: 88.54s
+2025-05-12 22:45:15,506 - INFO - Epoch 10/20, Loss: 0.3036, Val Mean AUC: 0.8069, Val Mean ACC: 0.8279, Val Mean F1: 0.5075
+Val AUC per class: 0.6795, 0.8490, 0.7428, 0.8833, 0.8802
+Val ACC per class: 0.9269, 0.7516, 0.6393, 0.9298, 0.8920
+Val F1 per class: 0.1957, 0.7384, 0.6267, 0.5626, 0.4143
+Train Time: 69.91s, Val Time: 18.39s, Total Epoch Time: 88.33s
+2025-05-12 22:46:44,244 - INFO - Epoch 11/20, Loss: 0.2977, Val Mean AUC: 0.8022, Val Mean ACC: 0.8127, Val Mean F1: 0.5035
+Val AUC per class: 0.6673, 0.8439, 0.7507, 0.8794, 0.8696
+Val ACC per class: 0.8429, 0.7487, 0.6611, 0.9302, 0.8808
+Val F1 per class: 0.1733, 0.7348, 0.6388, 0.5620, 0.4085
+Train Time: 70.37s, Val Time: 18.33s, Total Epoch Time: 88.74s
+2025-05-12 22:48:13,248 - INFO - Epoch 12/20, Loss: 0.2936, Val Mean AUC: 0.7949, Val Mean ACC: 0.8051, Val Mean F1: 0.4969
+Val AUC per class: 0.6485, 0.8427, 0.7452, 0.8720, 0.8660
+Val ACC per class: 0.8050, 0.7619, 0.6634, 0.9081, 0.8874
+Val F1 per class: 0.1591, 0.7402, 0.6381, 0.5327, 0.4144
+Train Time: 70.02s, Val Time: 18.94s, Total Epoch Time: 89.00s
+2025-05-12 22:49:46,116 - INFO - Epoch 13/20, Loss: 0.2897, Val Mean AUC: 0.7999, Val Mean ACC: 0.8074, Val Mean F1: 0.5048
+Val AUC per class: 0.6652, 0.8457, 0.7478, 0.8800, 0.8606
+Val ACC per class: 0.8347, 0.7724, 0.6038, 0.9203, 0.9061
+Val F1 per class: 0.1716, 0.7409, 0.6320, 0.5694, 0.4099
+Train Time: 73.27s, Val Time: 19.56s, Total Epoch Time: 92.87s
+2025-05-12 22:51:17,584 - INFO - Epoch 14/20, Loss: 0.2840, Val Mean AUC: 0.7928, Val Mean ACC: 0.8195, Val Mean F1: 0.4959
+Val AUC per class: 0.6617, 0.8342, 0.7462, 0.8702, 0.8518
+Val ACC per class: 0.8870, 0.7441, 0.6542, 0.9193, 0.8930
+Val F1 per class: 0.1695, 0.7296, 0.6357, 0.5521, 0.3925
+Train Time: 72.94s, Val Time: 18.49s, Total Epoch Time: 91.47s
+2025-05-12 22:52:45,579 - INFO - Epoch 15/20, Loss: 0.2806, Val Mean AUC: 0.7973, Val Mean ACC: 0.8179, Val Mean F1: 0.5097
+Val AUC per class: 0.6584, 0.8386, 0.7444, 0.8768, 0.8683
+Val ACC per class: 0.8370, 0.7714, 0.6574, 0.9252, 0.8986
+Val F1 per class: 0.1899, 0.7399, 0.6361, 0.5592, 0.4232
+Train Time: 69.39s, Val Time: 18.56s, Total Epoch Time: 87.99s
+2025-05-12 22:52:45,579 - INFO - Early stopping!
+2025-05-12 22:52:45,579 - INFO - 
+Training Summary:
+Total Training Time: 1096.29s
+Total Validation Time: 285.05s
+Total Time: 1381.93s
+Average Epoch Time: 92.13s
+2025-05-12 22:52:45,580 - INFO - Training completed. Run test.py to evaluate on val or test set.
+2025-05-12 22:54:40,890 - INFO - 
+Test Results:
+2025-05-12 22:54:40,890 - INFO - Pneumonia:
+  AUC: 0.6878 (Benchmark: 0.6333)
+  Accuracy: 0.8654
+  F1 Score: 0.1865
+  -> Surpassed benchmark!
+2025-05-12 22:54:40,890 - INFO - Effusion:
+  AUC: 0.8344 (Benchmark: 0.7362)
+  Accuracy: 0.7455
+  F1 Score: 0.7427
+  -> Surpassed benchmark!
+2025-05-12 22:54:40,890 - INFO - Atelectasis:
+  AUC: 0.7572 (Benchmark: 0.7069)
+  Accuracy: 0.6544
+  F1 Score: 0.6276
+  -> Surpassed benchmark!
+2025-05-12 22:54:40,890 - INFO - Cardiomegaly:
+  AUC: 0.9016 (Benchmark: 0.8141)
+  Accuracy: 0.9272
+  F1 Score: 0.5942
+  -> Surpassed benchmark!
+2025-05-12 22:54:40,891 - INFO - Edema:
+  AUC: 0.8615 (Benchmark: N/A)
+  Accuracy: 0.9100
+  F1 Score: 0.4536
+2025-05-12 22:54:40,891 - INFO - Mean Results:
+  Mean AUC: 0.8085
+  Mean ACC: 0.8205
+  Mean F1: 0.5209
+Evaluation Time: 33.99s
+2025-05-12 23:26:28,732 - INFO - Train: 38613, Val: 5564, Test: 11546
+2025-05-12 23:26:28,948 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-12 23:29:47,193 - INFO - Epoch 1/20, Loss: 0.2846, Val Mean AUC: 0.8242, Val Mean ACC: 0.8789, Val Mean F1: 0.4232
+Val AUC per class: 0.8720, 0.8636, 0.8856, 0.7239, 0.7758
+Val ACC per class: 0.8041, 0.9454, 0.9130, 0.8510, 0.8808
+Val F1 per class: 0.6577, 0.3796, 0.3296, 0.3363, 0.4128
+Train Time: 166.96s, Val Time: 31.24s, Total Epoch Time: 198.25s
+2025-05-12 23:32:16,855 - INFO - Epoch 2/20, Loss: 0.2508, Val Mean AUC: 0.8424, Val Mean ACC: 0.8868, Val Mean F1: 0.4478
+Val AUC per class: 0.8853, 0.8867, 0.8901, 0.7445, 0.8055
+Val ACC per class: 0.8316, 0.9419, 0.9491, 0.8350, 0.8762
+Val F1 per class: 0.6748, 0.4535, 0.3081, 0.3678, 0.4348
+Train Time: 124.48s, Val Time: 25.11s, Total Epoch Time: 149.63s
+2025-05-12 23:35:19,233 - INFO - Epoch 3/20, Loss: 0.2421, Val Mean AUC: 0.8466, Val Mean ACC: 0.8843, Val Mean F1: 0.4747
+Val AUC per class: 0.8890, 0.8978, 0.8966, 0.7587, 0.7909
+Val ACC per class: 0.8285, 0.9515, 0.9484, 0.8305, 0.8625
+Val F1 per class: 0.6872, 0.4867, 0.3608, 0.3920, 0.4469
+Train Time: 151.68s, Val Time: 30.62s, Total Epoch Time: 182.34s
+2025-05-12 23:38:05,104 - INFO - Epoch 4/20, Loss: 0.2369, Val Mean AUC: 0.8542, Val Mean ACC: 0.8903, Val Mean F1: 0.4843
+Val AUC per class: 0.8916, 0.9072, 0.8955, 0.7696, 0.8072
+Val ACC per class: 0.8296, 0.9491, 0.9479, 0.8366, 0.8880
+Val F1 per class: 0.6832, 0.4901, 0.3696, 0.4063, 0.4725
+Train Time: 140.64s, Val Time: 25.16s, Total Epoch Time: 165.84s
+2025-05-12 23:40:36,073 - INFO - Epoch 5/20, Loss: 0.2316, Val Mean AUC: 0.8537, Val Mean ACC: 0.8797, Val Mean F1: 0.4765
+Val AUC per class: 0.8889, 0.9081, 0.8993, 0.7703, 0.8022
+Val ACC per class: 0.8235, 0.9529, 0.9290, 0.8181, 0.8749
+Val F1 per class: 0.6765, 0.5057, 0.3428, 0.4089, 0.4485
+Train Time: 125.72s, Val Time: 25.18s, Total Epoch Time: 150.94s
+2025-05-12 23:43:06,217 - INFO - Epoch 6/20, Loss: 0.2281, Val Mean AUC: 0.8624, Val Mean ACC: 0.8870, Val Mean F1: 0.4967
+Val AUC per class: 0.8920, 0.9196, 0.9030, 0.7749, 0.8226
+Val ACC per class: 0.8426, 0.9526, 0.9351, 0.8224, 0.8821
+Val F1 per class: 0.6918, 0.5093, 0.3787, 0.4229, 0.4810
+Train Time: 125.03s, Val Time: 25.07s, Total Epoch Time: 150.14s
+2025-05-12 23:45:38,481 - INFO - Epoch 7/20, Loss: 0.2239, Val Mean AUC: 0.8576, Val Mean ACC: 0.8761, Val Mean F1: 0.4940
+Val AUC per class: 0.8920, 0.9044, 0.8994, 0.7784, 0.8140
+Val ACC per class: 0.8303, 0.9526, 0.9348, 0.8054, 0.8577
+Val F1 per class: 0.6913, 0.4903, 0.3940, 0.4224, 0.4720
+Train Time: 126.83s, Val Time: 25.35s, Total Epoch Time: 152.23s
+2025-05-12 23:48:08,592 - INFO - Epoch 8/20, Loss: 0.2204, Val Mean AUC: 0.8599, Val Mean ACC: 0.8812, Val Mean F1: 0.5026
+Val AUC per class: 0.8930, 0.9148, 0.9032, 0.7744, 0.8142
+Val ACC per class: 0.8258, 0.9549, 0.9436, 0.8005, 0.8814
+Val F1 per class: 0.6895, 0.5394, 0.3985, 0.4188, 0.4669
+Train Time: 124.92s, Val Time: 25.15s, Total Epoch Time: 150.11s
+2025-05-12 23:50:38,522 - INFO - Epoch 9/20, Loss: 0.2175, Val Mean AUC: 0.8591, Val Mean ACC: 0.8861, Val Mean F1: 0.4942
+Val AUC per class: 0.8940, 0.9180, 0.9029, 0.7786, 0.8017
+Val ACC per class: 0.8334, 0.9588, 0.9432, 0.8388, 0.8562
+Val F1 per class: 0.6903, 0.5179, 0.3852, 0.4261, 0.4513
+Train Time: 124.68s, Val Time: 25.20s, Total Epoch Time: 149.93s
+2025-05-12 23:53:09,348 - INFO - Epoch 10/20, Loss: 0.2138, Val Mean AUC: 0.8591, Val Mean ACC: 0.8833, Val Mean F1: 0.4974
+Val AUC per class: 0.8905, 0.9173, 0.9036, 0.7740, 0.8099
+Val ACC per class: 0.8381, 0.9574, 0.9299, 0.8316, 0.8595
+Val F1 per class: 0.6837, 0.5380, 0.3810, 0.4205, 0.4636
+Train Time: 125.44s, Val Time: 25.34s, Total Epoch Time: 150.82s
+2025-05-12 23:55:42,421 - INFO - Epoch 11/20, Loss: 0.2105, Val Mean AUC: 0.8580, Val Mean ACC: 0.8872, Val Mean F1: 0.4977
+Val AUC per class: 0.8915, 0.9179, 0.9013, 0.7744, 0.8052
+Val ACC per class: 0.8435, 0.9628, 0.9382, 0.8255, 0.8661
+Val F1 per class: 0.6866, 0.5548, 0.3653, 0.4285, 0.4534
+Train Time: 127.05s, Val Time: 25.98s, Total Epoch Time: 153.07s
+2025-05-12 23:58:15,274 - INFO - Epoch 12/20, Loss: 0.2075, Val Mean AUC: 0.8568, Val Mean ACC: 0.8849, Val Mean F1: 0.4962
+Val AUC per class: 0.8891, 0.9132, 0.8994, 0.7711, 0.8115
+Val ACC per class: 0.8415, 0.9574, 0.9508, 0.8142, 0.8607
+Val F1 per class: 0.6841, 0.5380, 0.3857, 0.4281, 0.4452
+Train Time: 127.61s, Val Time: 25.20s, Total Epoch Time: 152.85s
+2025-05-13 00:00:47,104 - INFO - Epoch 13/20, Loss: 0.2039, Val Mean AUC: 0.8506, Val Mean ACC: 0.8816, Val Mean F1: 0.4865
+Val AUC per class: 0.8860, 0.9121, 0.9015, 0.7660, 0.7870
+Val ACC per class: 0.8314, 0.9560, 0.9473, 0.8064, 0.8670
+Val F1 per class: 0.6842, 0.5129, 0.3934, 0.4020, 0.4402
+Train Time: 125.62s, Val Time: 26.17s, Total Epoch Time: 151.83s
+2025-05-13 00:03:21,046 - INFO - Epoch 14/20, Loss: 0.2006, Val Mean AUC: 0.8493, Val Mean ACC: 0.8747, Val Mean F1: 0.4796
+Val AUC per class: 0.8866, 0.9119, 0.8942, 0.7651, 0.7887
+Val ACC per class: 0.8208, 0.9588, 0.9545, 0.7890, 0.8501
+Val F1 per class: 0.6826, 0.5239, 0.3463, 0.4022, 0.4433
+Train Time: 128.68s, Val Time: 25.22s, Total Epoch Time: 153.94s
+2025-05-13 00:05:51,136 - INFO - Epoch 15/20, Loss: 0.1969, Val Mean AUC: 0.8485, Val Mean ACC: 0.8815, Val Mean F1: 0.4936
+Val AUC per class: 0.8865, 0.9052, 0.8925, 0.7674, 0.7910
+Val ACC per class: 0.8217, 0.9484, 0.9468, 0.8320, 0.8586
+Val F1 per class: 0.6794, 0.5240, 0.3884, 0.4225, 0.4539
+Train Time: 125.05s, Val Time: 25.00s, Total Epoch Time: 150.09s
+2025-05-13 00:08:22,441 - INFO - Epoch 16/20, Loss: 0.1933, Val Mean AUC: 0.8462, Val Mean ACC: 0.8826, Val Mean F1: 0.4780
+Val AUC per class: 0.8844, 0.8974, 0.8947, 0.7639, 0.7906
+Val ACC per class: 0.8217, 0.9520, 0.9416, 0.8316, 0.8663
+Val F1 per class: 0.6825, 0.4875, 0.3714, 0.4155, 0.4329
+Train Time: 125.98s, Val Time: 25.28s, Total Epoch Time: 151.31s
+2025-05-13 00:08:22,441 - INFO - Early stopping!
+2025-05-13 00:08:22,441 - INFO - 
+Training Summary:
+Total Training Time: 2096.36s
+Total Validation Time: 416.28s
+Total Time: 2513.33s
+Average Epoch Time: 157.08s
+2025-05-13 00:08:22,442 - INFO - Training completed. Run test.py to evaluate on val or test set.
+2025-05-13 00:17:10,968 - INFO - 
+Test Results:
+2025-05-13 00:17:10,969 - INFO - Effusion:
+  AUC: 0.8950 (Benchmark: 0.6333)
+  Accuracy: 0.8299
+  F1 Score: 0.6947
+  -> Surpassed benchmark!
+2025-05-13 00:17:10,969 - INFO - Cardiomegaly:
+  AUC: 0.9037 (Benchmark: 0.7362)
+  Accuracy: 0.9472
+  F1 Score: 0.4583
+  -> Surpassed benchmark!
+2025-05-13 00:17:10,969 - INFO - Edema:
+  AUC: 0.8789 (Benchmark: 0.7069)
+  Accuracy: 0.9204
+  F1 Score: 0.3622
+  -> Surpassed benchmark!
+2025-05-13 00:17:10,970 - INFO - Nodule:
+  AUC: 0.7316 (Benchmark: 0.8141)
+  Accuracy: 0.8295
+  F1 Score: 0.3504
+2025-05-13 00:17:10,970 - INFO - Mass:
+  AUC: 0.8131 (Benchmark: N/A)
+  Accuracy: 0.8630
+  F1 Score: 0.4418
+2025-05-13 00:17:10,970 - INFO - Mean Results:
+  Mean AUC: 0.8444
+  Mean ACC: 0.8780
+  Mean F1: 0.4615
+Evaluation Time: 53.86s
+2025-05-13 15:06:15,309 - INFO - Train: 38613, Val: 5564, Test: 11546
+2025-05-13 15:06:15,628 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-13 15:09:36,487 - INFO - Epoch 1/20, Loss: 0.2977, Val Mean AUC: 0.8116, Val Mean ACC: 0.8491, Val Mean F1: 0.3958
+Val AUC per class: 0.8666, 0.8387, 0.8686, 0.7231, 0.7608
+Val ACC per class: 0.7965, 0.8843, 0.9191, 0.7872, 0.8584
+Val F1 per class: 0.6449, 0.2923, 0.3012, 0.3551, 0.3853
+Train Time: 169.49s, Val Time: 31.31s, Total Epoch Time: 200.86s
+2025-05-13 15:12:06,034 - INFO - Epoch 2/20, Loss: 0.2582, Val Mean AUC: 0.8346, Val Mean ACC: 0.8751, Val Mean F1: 0.4480
+Val AUC per class: 0.8807, 0.8867, 0.8888, 0.7378, 0.7792
+Val ACC per class: 0.8237, 0.9443, 0.9324, 0.8077, 0.8675
+Val F1 per class: 0.6667, 0.4259, 0.3562, 0.3639, 0.4274
+Train Time: 124.13s, Val Time: 25.34s, Total Epoch Time: 149.51s
+2025-05-13 15:14:35,736 - INFO - Epoch 3/20, Loss: 0.2477, Val Mean AUC: 0.8429, Val Mean ACC: 0.8818, Val Mean F1: 0.4630
+Val AUC per class: 0.8836, 0.8946, 0.8909, 0.7465, 0.7991
+Val ACC per class: 0.8233, 0.9382, 0.9436, 0.8343, 0.8695
+Val F1 per class: 0.6696, 0.4361, 0.3695, 0.3745, 0.4654
+Train Time: 124.36s, Val Time: 25.27s, Total Epoch Time: 149.67s
+2025-05-13 15:17:05,729 - INFO - Epoch 4/20, Loss: 0.2419, Val Mean AUC: 0.8497, Val Mean ACC: 0.8812, Val Mean F1: 0.4668
+Val AUC per class: 0.8856, 0.9009, 0.8973, 0.7576, 0.8070
+Val ACC per class: 0.8345, 0.9509, 0.9265, 0.8255, 0.8686
+Val F1 per class: 0.6799, 0.4507, 0.3456, 0.3866, 0.4714
+Train Time: 124.55s, Val Time: 25.36s, Total Epoch Time: 149.96s
+2025-05-13 15:19:35,612 - INFO - Epoch 5/20, Loss: 0.2379, Val Mean AUC: 0.8535, Val Mean ACC: 0.8851, Val Mean F1: 0.4826
+Val AUC per class: 0.8910, 0.9071, 0.8984, 0.7642, 0.8068
+Val ACC per class: 0.8172, 0.9488, 0.9432, 0.8487, 0.8675
+Val F1 per class: 0.6831, 0.4902, 0.3730, 0.3934, 0.4732
+Train Time: 124.45s, Val Time: 25.36s, Total Epoch Time: 149.85s
+2025-05-13 15:22:05,282 - INFO - Epoch 6/20, Loss: 0.2340, Val Mean AUC: 0.8546, Val Mean ACC: 0.8916, Val Mean F1: 0.4821
+Val AUC per class: 0.8921, 0.9085, 0.9038, 0.7630, 0.8056
+Val ACC per class: 0.8431, 0.9504, 0.9551, 0.8364, 0.8728
+Val F1 per class: 0.6847, 0.5036, 0.3781, 0.3884, 0.4554
+Train Time: 124.39s, Val Time: 25.21s, Total Epoch Time: 149.64s
+2025-05-13 15:24:34,968 - INFO - Epoch 7/20, Loss: 0.2303, Val Mean AUC: 0.8566, Val Mean ACC: 0.8835, Val Mean F1: 0.4847
+Val AUC per class: 0.8933, 0.9147, 0.9033, 0.7664, 0.8052
+Val ACC per class: 0.8359, 0.9538, 0.9362, 0.8296, 0.8621
+Val F1 per class: 0.6872, 0.5029, 0.3672, 0.4015, 0.4648
+Train Time: 124.36s, Val Time: 25.26s, Total Epoch Time: 149.66s
+2025-05-13 15:27:04,772 - INFO - Epoch 8/20, Loss: 0.2277, Val Mean AUC: 0.8593, Val Mean ACC: 0.8868, Val Mean F1: 0.4840
+Val AUC per class: 0.8948, 0.9146, 0.9046, 0.7674, 0.8150
+Val ACC per class: 0.8329, 0.9594, 0.9461, 0.8082, 0.8877
+Val F1 per class: 0.6881, 0.5000, 0.3671, 0.3920, 0.4726
+Train Time: 124.32s, Val Time: 25.40s, Total Epoch Time: 149.77s
+2025-05-13 15:29:34,373 - INFO - Epoch 9/20, Loss: 0.2248, Val Mean AUC: 0.8599, Val Mean ACC: 0.8881, Val Mean F1: 0.4890
+Val AUC per class: 0.8932, 0.9153, 0.9022, 0.7739, 0.8148
+Val ACC per class: 0.8314, 0.9567, 0.9475, 0.8417, 0.8630
+Val F1 per class: 0.6846, 0.5010, 0.3814, 0.3986, 0.4795
+Train Time: 124.14s, Val Time: 25.38s, Total Epoch Time: 149.57s
+2025-05-13 15:32:03,975 - INFO - Epoch 10/20, Loss: 0.2221, Val Mean AUC: 0.8587, Val Mean ACC: 0.8855, Val Mean F1: 0.4939
+Val AUC per class: 0.8917, 0.9147, 0.9019, 0.7755, 0.8098
+Val ACC per class: 0.8399, 0.9551, 0.9385, 0.8267, 0.8674
+Val F1 per class: 0.6897, 0.5211, 0.3893, 0.3990, 0.4706
+Train Time: 124.35s, Val Time: 25.18s, Total Epoch Time: 149.57s
+2025-05-13 15:34:33,630 - INFO - Epoch 11/20, Loss: 0.2200, Val Mean AUC: 0.8612, Val Mean ACC: 0.8863, Val Mean F1: 0.4933
+Val AUC per class: 0.8947, 0.9195, 0.9037, 0.7700, 0.8181
+Val ACC per class: 0.8348, 0.9599, 0.9402, 0.8181, 0.8785
+Val F1 per class: 0.6896, 0.5120, 0.3934, 0.4012, 0.4702
+Train Time: 124.37s, Val Time: 25.24s, Total Epoch Time: 149.65s
+2025-05-13 15:37:03,323 - INFO - Epoch 12/20, Loss: 0.2170, Val Mean AUC: 0.8578, Val Mean ACC: 0.8842, Val Mean F1: 0.4881
+Val AUC per class: 0.8938, 0.9172, 0.9014, 0.7712, 0.8054
+Val ACC per class: 0.8321, 0.9561, 0.9513, 0.8280, 0.8533
+Val F1 per class: 0.6866, 0.5197, 0.3712, 0.3985, 0.4646
+Train Time: 124.26s, Val Time: 25.36s, Total Epoch Time: 149.66s
+2025-05-13 15:39:32,827 - INFO - Epoch 13/20, Loss: 0.2147, Val Mean AUC: 0.8594, Val Mean ACC: 0.8909, Val Mean F1: 0.4905
+Val AUC per class: 0.8943, 0.9193, 0.9012, 0.7715, 0.8110
+Val ACC per class: 0.8472, 0.9560, 0.9470, 0.8424, 0.8620
+Val F1 per class: 0.6940, 0.5051, 0.3789, 0.4086, 0.4659
+Train Time: 124.23s, Val Time: 25.23s, Total Epoch Time: 149.50s
+2025-05-13 15:42:02,778 - INFO - Epoch 14/20, Loss: 0.2121, Val Mean AUC: 0.8621, Val Mean ACC: 0.8916, Val Mean F1: 0.4962
+Val AUC per class: 0.8906, 0.9208, 0.9080, 0.7789, 0.8121
+Val ACC per class: 0.8312, 0.9529, 0.9508, 0.8490, 0.8742
+Val F1 per class: 0.6881, 0.5236, 0.3911, 0.4126, 0.4656
+Train Time: 124.71s, Val Time: 25.19s, Total Epoch Time: 149.95s
+2025-05-13 15:44:32,582 - INFO - Epoch 15/20, Loss: 0.2093, Val Mean AUC: 0.8606, Val Mean ACC: 0.8868, Val Mean F1: 0.4883
+Val AUC per class: 0.8916, 0.9183, 0.9069, 0.7724, 0.8139
+Val ACC per class: 0.8179, 0.9570, 0.9290, 0.8684, 0.8616
+Val F1 per class: 0.6785, 0.5323, 0.3740, 0.4029, 0.4539
+Train Time: 124.35s, Val Time: 25.38s, Total Epoch Time: 149.77s
+2025-05-13 15:47:02,264 - INFO - Epoch 16/20, Loss: 0.2067, Val Mean AUC: 0.8574, Val Mean ACC: 0.8821, Val Mean F1: 0.4874
+Val AUC per class: 0.8875, 0.9218, 0.9053, 0.7727, 0.7998
+Val ACC per class: 0.8291, 0.9565, 0.9473, 0.8224, 0.8550
+Val F1 per class: 0.6869, 0.5198, 0.3644, 0.4012, 0.4645
+Train Time: 124.34s, Val Time: 25.30s, Total Epoch Time: 149.68s
+2025-05-13 15:49:31,890 - INFO - Epoch 17/20, Loss: 0.2041, Val Mean AUC: 0.8569, Val Mean ACC: 0.8773, Val Mean F1: 0.4814
+Val AUC per class: 0.8892, 0.9160, 0.8976, 0.7748, 0.8070
+Val ACC per class: 0.8314, 0.9477, 0.9366, 0.8084, 0.8623
+Val F1 per class: 0.6820, 0.5059, 0.3499, 0.4071, 0.4621
+Train Time: 124.37s, Val Time: 25.21s, Total Epoch Time: 149.63s
+2025-05-13 15:52:01,683 - INFO - Epoch 18/20, Loss: 0.2015, Val Mean AUC: 0.8565, Val Mean ACC: 0.8802, Val Mean F1: 0.4866
+Val AUC per class: 0.8901, 0.9201, 0.9005, 0.7698, 0.8019
+Val ACC per class: 0.8262, 0.9470, 0.9499, 0.8143, 0.8636
+Val F1 per class: 0.6837, 0.5188, 0.3645, 0.4032, 0.4628
+Train Time: 124.50s, Val Time: 25.24s, Total Epoch Time: 149.79s
+2025-05-13 15:54:31,347 - INFO - Epoch 19/20, Loss: 0.1988, Val Mean AUC: 0.8522, Val Mean ACC: 0.8870, Val Mean F1: 0.4845
+Val AUC per class: 0.8885, 0.9144, 0.8937, 0.7683, 0.7959
+Val ACC per class: 0.8264, 0.9511, 0.9450, 0.8494, 0.8630
+Val F1 per class: 0.6882, 0.5177, 0.3462, 0.4048, 0.4656
+Train Time: 124.33s, Val Time: 25.29s, Total Epoch Time: 149.66s
+2025-05-13 15:57:01,244 - INFO - Epoch 20/20, Loss: 0.1961, Val Mean AUC: 0.8502, Val Mean ACC: 0.8824, Val Mean F1: 0.4757
+Val AUC per class: 0.8893, 0.9111, 0.8983, 0.7600, 0.7924
+Val ACC per class: 0.8181, 0.9490, 0.9437, 0.8223, 0.8790
+Val F1 per class: 0.6853, 0.5000, 0.3438, 0.3936, 0.4559
+Train Time: 124.39s, Val Time: 25.46s, Total Epoch Time: 149.90s
+2025-05-13 15:57:01,245 - INFO - 
+Training Summary:
+Total Training Time: 2532.41s
+Total Validation Time: 511.99s
+Total Time: 3045.27s
+Average Epoch Time: 152.26s
+2025-05-13 15:57:01,245 - INFO - Training completed. Run test.py to evaluate on val or test set.
+2025-05-13 21:17:03,657 - INFO - 
+Test Results:
+2025-05-13 21:17:03,657 - INFO - Effusion:
+  AUC: 0.8917 (Benchmark: 0.6333)
+  Accuracy: 0.8352
+  F1 Score: 0.6928
+  -> Surpassed benchmark!
+2025-05-13 21:17:03,657 - INFO - Cardiomegaly:
+  AUC: 0.9031 (Benchmark: 0.7362)
+  Accuracy: 0.9369
+  F1 Score: 0.4667
+  -> Surpassed benchmark!
+2025-05-13 21:17:03,657 - INFO - Edema:
+  AUC: 0.8741 (Benchmark: 0.7069)
+  Accuracy: 0.9190
+  F1 Score: 0.3493
+  -> Surpassed benchmark!
+2025-05-13 21:17:03,657 - INFO - Nodule:
+  AUC: 0.7315 (Benchmark: 0.8141)
+  Accuracy: 0.8566
+  F1 Score: 0.3460
+2025-05-13 21:17:03,658 - INFO - Mass:
+  AUC: 0.8091 (Benchmark: N/A)
+  Accuracy: 0.8404
+  F1 Score: 0.4282
+2025-05-13 21:17:03,658 - INFO - Mean Results:
+  Mean AUC: 0.8419
+  Mean ACC: 0.8776
+  Mean F1: 0.4566
+Evaluation Time: 47.71s
+2025-05-18 22:27:26,432 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:27:28,758 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 22:27:29,059 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 22:27:29,410 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 22:33:37,620 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:33:37,895 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 22:36:10,632 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:36:10,907 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 22:38:18,030 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:38:18,321 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 22:40:52,305 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:40:52,580 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 22:41:22,878 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:41:23,148 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 22:42:59,695 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:43:00,159 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 22:43:00,923 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 22:43:01,079 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 22:48:13,449 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:48:13,782 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 22:48:14,531 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 22:48:14,695 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 22:51:21,996 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:51:22,328 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 22:51:22,582 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 22:51:22,747 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 22:52:30,256 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:52:30,587 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 22:52:31,294 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 22:52:31,455 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 22:55:32,996 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:55:33,326 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 22:55:33,590 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 22:55:33,751 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 22:59:06,009 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 22:59:06,345 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 22:59:06,622 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 22:59:06,786 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 23:00:25,987 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 23:00:26,320 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 23:00:26,599 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 23:00:26,766 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 23:03:25,145 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 23:03:25,489 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 23:03:26,202 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 23:03:26,386 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 23:07:06,447 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 23:07:06,782 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 23:07:07,496 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 23:07:07,676 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 23:08:31,716 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 23:08:32,050 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 23:08:32,890 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 23:08:33,049 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 23:09:49,954 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 23:09:50,288 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-18 23:09:50,587 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-18 23:09:50,764 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 23:12:50,322 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-18 23:12:50,602 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-18 23:17:35,883 - INFO - Epoch 1/50, Loss: 0.0933, Val Mean AUC: 0.7720, Val Mean ACC: 0.6673, Val Mean F1: 0.4315
+Val AUC per class: 0.8373, 0.8445, 0.7524, 0.7907, 0.6351
+Val ACC per class: 0.9143, 0.8036, 0.5198, 0.7628, 0.3360
+Val F1 per class: 0.3120, 0.5991, 0.4147, 0.3313, 0.5005
+Train Time: 252.10s, Val Time: 33.10s, Total Epoch Time: 285.28s
+2025-05-18 23:22:16,207 - INFO - Epoch 2/50, Loss: 0.0857, Val Mean AUC: 0.8011, Val Mean ACC: 0.7454, Val Mean F1: 0.4769
+Val AUC per class: 0.8806, 0.8608, 0.7694, 0.8424, 0.6521
+Val ACC per class: 0.9434, 0.8210, 0.7689, 0.8542, 0.3391
+Val F1 per class: 0.3766, 0.6296, 0.4489, 0.4276, 0.5017
+Train Time: 255.29s, Val Time: 24.89s, Total Epoch Time: 280.25s
+2025-05-18 23:26:52,291 - INFO - Epoch 3/50, Loss: 0.0835, Val Mean AUC: 0.8127, Val Mean ACC: 0.7415, Val Mean F1: 0.4932
+Val AUC per class: 0.8895, 0.8653, 0.7809, 0.8671, 0.6609
+Val ACC per class: 0.8939, 0.8172, 0.7679, 0.8881, 0.3403
+Val F1 per class: 0.3616, 0.6316, 0.4791, 0.4909, 0.5026
+Train Time: 250.20s, Val Time: 25.74s, Total Epoch Time: 276.02s
+2025-05-18 23:31:34,954 - INFO - Epoch 4/50, Loss: 0.0821, Val Mean AUC: 0.8164, Val Mean ACC: 0.8187, Val Mean F1: 0.4985
+Val AUC per class: 0.9028, 0.8640, 0.7808, 0.8642, 0.6700
+Val ACC per class: 0.9487, 0.8088, 0.7900, 0.9070, 0.6391
+Val F1 per class: 0.4492, 0.6327, 0.4624, 0.4444, 0.5039
+Train Time: 256.58s, Val Time: 25.94s, Total Epoch Time: 282.60s
+2025-05-18 23:36:12,062 - INFO - Epoch 5/50, Loss: 0.0810, Val Mean AUC: 0.8208, Val Mean ACC: 0.8158, Val Mean F1: 0.5121
+Val AUC per class: 0.8892, 0.8654, 0.7859, 0.8794, 0.6842
+Val ACC per class: 0.9280, 0.8395, 0.7777, 0.9128, 0.6212
+Val F1 per class: 0.4087, 0.6276, 0.4804, 0.5152, 0.5283
+Train Time: 248.01s, Val Time: 28.96s, Total Epoch Time: 277.04s
+2025-05-18 23:40:51,487 - INFO - Epoch 6/50, Loss: 0.0803, Val Mean AUC: 0.8242, Val Mean ACC: 0.8065, Val Mean F1: 0.5140
+Val AUC per class: 0.8945, 0.8697, 0.7998, 0.8742, 0.6828
+Val ACC per class: 0.9509, 0.8269, 0.7661, 0.8533, 0.6356
+Val F1 per class: 0.4436, 0.6382, 0.5009, 0.4675, 0.5196
+Train Time: 248.41s, Val Time: 30.87s, Total Epoch Time: 279.36s
+2025-05-18 23:45:24,700 - INFO - Epoch 7/50, Loss: 0.0795, Val Mean AUC: 0.8235, Val Mean ACC: 0.8172, Val Mean F1: 0.5174
+Val AUC per class: 0.9003, 0.8699, 0.7873, 0.8706, 0.6894
+Val ACC per class: 0.9558, 0.8149, 0.7877, 0.8873, 0.6404
+Val F1 per class: 0.4141, 0.6416, 0.4782, 0.5208, 0.5324
+Train Time: 248.10s, Val Time: 24.92s, Total Epoch Time: 273.10s
+2025-05-18 23:49:57,681 - INFO - Epoch 8/50, Loss: 0.0787, Val Mean AUC: 0.8247, Val Mean ACC: 0.7898, Val Mean F1: 0.5173
+Val AUC per class: 0.8935, 0.8739, 0.7819, 0.8841, 0.6903
+Val ACC per class: 0.9543, 0.8202, 0.6308, 0.9168, 0.6267
+Val F1 per class: 0.4467, 0.6462, 0.4591, 0.5054, 0.5288
+Train Time: 247.98s, Val Time: 24.93s, Total Epoch Time: 272.98s
+2025-05-18 23:54:30,255 - INFO - Epoch 9/50, Loss: 0.0781, Val Mean AUC: 0.8267, Val Mean ACC: 0.8173, Val Mean F1: 0.5181
+Val AUC per class: 0.8956, 0.8719, 0.7933, 0.8796, 0.6932
+Val ACC per class: 0.9560, 0.8254, 0.7907, 0.8717, 0.6429
+Val F1 per class: 0.4301, 0.6377, 0.4817, 0.5048, 0.5361
+Train Time: 247.64s, Val Time: 24.80s, Total Epoch Time: 272.51s
+2025-05-18 23:59:03,514 - INFO - Epoch 10/50, Loss: 0.0777, Val Mean AUC: 0.8282, Val Mean ACC: 0.8239, Val Mean F1: 0.5208
+Val AUC per class: 0.9011, 0.8753, 0.7909, 0.8850, 0.6886
+Val ACC per class: 0.9338, 0.8353, 0.8023, 0.9195, 0.6285
+Val F1 per class: 0.4324, 0.6563, 0.4728, 0.5135, 0.5288
+Train Time: 248.35s, Val Time: 24.77s, Total Epoch Time: 273.19s
+2025-05-19 00:03:36,717 - INFO - Epoch 11/50, Loss: 0.0770, Val Mean AUC: 0.8250, Val Mean ACC: 0.8096, Val Mean F1: 0.5196
+Val AUC per class: 0.8942, 0.8733, 0.7900, 0.8767, 0.6905
+Val ACC per class: 0.9557, 0.8054, 0.7958, 0.8826, 0.6084
+Val F1 per class: 0.4283, 0.6400, 0.4938, 0.4968, 0.5392
+Train Time: 248.22s, Val Time: 24.84s, Total Epoch Time: 273.14s
+2025-05-19 00:08:09,676 - INFO - Epoch 12/50, Loss: 0.0764, Val Mean AUC: 0.8207, Val Mean ACC: 0.8126, Val Mean F1: 0.5062
+Val AUC per class: 0.8733, 0.8730, 0.7950, 0.8833, 0.6786
+Val ACC per class: 0.9228, 0.8182, 0.7792, 0.9132, 0.6295
+Val F1 per class: 0.3708, 0.6451, 0.4916, 0.5080, 0.5156
+Train Time: 248.13s, Val Time: 24.75s, Total Epoch Time: 272.96s
+2025-05-19 00:12:42,556 - INFO - Epoch 13/50, Loss: 0.0757, Val Mean AUC: 0.8234, Val Mean ACC: 0.8228, Val Mean F1: 0.5177
+Val AUC per class: 0.8950, 0.8736, 0.7894, 0.8731, 0.6860
+Val ACC per class: 0.9547, 0.8257, 0.7786, 0.9110, 0.6439
+Val F1 per class: 0.3974, 0.6502, 0.4996, 0.5136, 0.5278
+Train Time: 248.02s, Val Time: 24.79s, Total Epoch Time: 272.88s
+2025-05-19 00:17:15,476 - INFO - Epoch 14/50, Loss: 0.0752, Val Mean AUC: 0.8241, Val Mean ACC: 0.8145, Val Mean F1: 0.5202
+Val AUC per class: 0.8955, 0.8757, 0.7917, 0.8749, 0.6826
+Val ACC per class: 0.9477, 0.8111, 0.7986, 0.8929, 0.6222
+Val F1 per class: 0.4283, 0.6475, 0.4792, 0.5183, 0.5280
+Train Time: 247.84s, Val Time: 25.01s, Total Epoch Time: 272.92s
+2025-05-19 00:21:48,519 - INFO - Epoch 15/50, Loss: 0.0744, Val Mean AUC: 0.8253, Val Mean ACC: 0.8087, Val Mean F1: 0.5179
+Val AUC per class: 0.8894, 0.8773, 0.7944, 0.8800, 0.6855
+Val ACC per class: 0.9399, 0.8285, 0.7875, 0.8833, 0.6041
+Val F1 per class: 0.4066, 0.6558, 0.4888, 0.5094, 0.5287
+Train Time: 248.04s, Val Time: 24.92s, Total Epoch Time: 273.04s
+2025-05-19 00:26:21,304 - INFO - Epoch 16/50, Loss: 0.0738, Val Mean AUC: 0.8236, Val Mean ACC: 0.7749, Val Mean F1: 0.5097
+Val AUC per class: 0.8978, 0.8712, 0.7857, 0.8707, 0.6925
+Val ACC per class: 0.9470, 0.8142, 0.7591, 0.9006, 0.4535
+Val F1 per class: 0.4037, 0.6384, 0.4809, 0.4954, 0.5298
+Train Time: 247.99s, Val Time: 24.72s, Total Epoch Time: 272.78s
+2025-05-19 00:30:54,403 - INFO - Epoch 17/50, Loss: 0.0732, Val Mean AUC: 0.8239, Val Mean ACC: 0.8174, Val Mean F1: 0.5159
+Val AUC per class: 0.8934, 0.8739, 0.7906, 0.8719, 0.6897
+Val ACC per class: 0.9485, 0.8365, 0.7712, 0.8785, 0.6521
+Val F1 per class: 0.4173, 0.6511, 0.4904, 0.4945, 0.5264
+Train Time: 248.05s, Val Time: 24.98s, Total Epoch Time: 273.10s
+2025-05-19 00:35:27,299 - INFO - Epoch 18/50, Loss: 0.0726, Val Mean AUC: 0.8188, Val Mean ACC: 0.8160, Val Mean F1: 0.5118
+Val AUC per class: 0.8841, 0.8704, 0.7883, 0.8668, 0.6846
+Val ACC per class: 0.9499, 0.8289, 0.7885, 0.8821, 0.6306
+Val F1 per class: 0.4102, 0.6470, 0.4804, 0.4863, 0.5352
+Train Time: 247.96s, Val Time: 24.86s, Total Epoch Time: 272.90s
+2025-05-19 00:40:00,427 - INFO - Epoch 19/50, Loss: 0.0719, Val Mean AUC: 0.8193, Val Mean ACC: 0.8073, Val Mean F1: 0.5090
+Val AUC per class: 0.8909, 0.8660, 0.7833, 0.8679, 0.6882
+Val ACC per class: 0.9258, 0.8202, 0.7923, 0.8855, 0.6129
+Val F1 per class: 0.3902, 0.6389, 0.4790, 0.4934, 0.5435
+Train Time: 248.16s, Val Time: 24.90s, Total Epoch Time: 273.13s
+2025-05-19 00:44:33,232 - INFO - Epoch 20/50, Loss: 0.0712, Val Mean AUC: 0.8171, Val Mean ACC: 0.8178, Val Mean F1: 0.5153
+Val AUC per class: 0.8866, 0.8700, 0.7816, 0.8686, 0.6786
+Val ACC per class: 0.9522, 0.8264, 0.7903, 0.9100, 0.6099
+Val F1 per class: 0.4146, 0.6415, 0.4770, 0.5099, 0.5332
+Train Time: 247.85s, Val Time: 24.89s, Total Epoch Time: 272.80s
+2025-05-19 00:44:33,233 - INFO - Early stopping!
+2025-05-19 00:44:33,233 - INFO - 
+Training Summary:
+Total Training Time: 4982.91s
+Total Validation Time: 517.59s
+Total Time: 5501.99s
+Average Epoch Time: 275.10s
+2025-05-19 00:44:33,233 - INFO - Training completed. Run test.py to evaluate on val or test set.
+2025-05-19 07:01:18,319 - INFO - 
+Test Results:
+2025-05-19 07:01:18,319 - INFO - Cardiomegaly:
+  AUC: 0.8841 (Benchmark: 0.904)
+  Accuracy: 0.9313
+  F1 Score: 0.4117
+2025-05-19 07:01:18,319 - INFO - Effusion:
+  AUC: 0.8709 (Benchmark: 0.863)
+  Accuracy: 0.8337
+  F1 Score: 0.6337
+  -> Surpassed benchmark!
+2025-05-19 07:01:18,320 - INFO - Atelectasis:
+  AUC: 0.7868 (Benchmark: 0.8)
+  Accuracy: 0.7978
+  F1 Score: 0.4724
+2025-05-19 07:01:18,320 - INFO - Pneumothorax:
+  AUC: 0.8703 (Benchmark: 0.888)
+  Accuracy: 0.9273
+  F1 Score: 0.4811
+2025-05-19 07:01:18,320 - INFO - Infiltration:
+  AUC: 0.7103 (Benchmark: 0.713)
+  Accuracy: 0.6485
+  F1 Score: 0.5489
+2025-05-19 07:01:18,320 - INFO - Mean Results:
+  Mean AUC: 0.8245
+  Mean ACC: 0.8277
+  Mean F1: 0.5096
+Evaluation Time: 51.88s
+2025-05-19 23:23:31,064 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-19 23:23:31,567 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-19 23:23:31,852 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-19 23:23:32,184 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-19 23:29:40,775 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-19 23:29:41,121 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-19 23:29:41,979 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-19 23:29:42,151 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-19 23:32:17,094 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-19 23:32:17,447 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-19 23:32:17,732 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-19 23:32:17,911 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-19 23:33:10,713 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-19 23:33:11,050 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-19 23:33:11,383 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-19 23:33:11,539 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-19 23:41:04,756 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-19 23:41:05,093 - INFO - Loading pretrained weights from Hugging Face hub (timm/swin_tiny_patch4_window7_224.ms_in1k)
+2025-05-19 23:41:05,801 - INFO - [timm/swin_tiny_patch4_window7_224.ms_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2025-05-19 23:41:05,962 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-19 23:46:53,198 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-19 23:46:53,472 - INFO - Starting training. AUC, ACC, F1 will be logged for validation.
+2025-05-19 23:51:43,391 - INFO - Epoch 1/50, Loss: 0.0952, Val Mean AUC: 0.7620, Val Mean ACC: 0.6465, Val Mean F1: 0.4047
+Val AUC per class: 0.7840, 0.8404, 0.7556, 0.7935, 0.6364
+Val ACC per class: 0.6979, 0.7880, 0.7420, 0.6711, 0.3335
+Val F1 per class: 0.1720, 0.5963, 0.4536, 0.3017, 0.5002
+Train Time: 256.11s, Val Time: 33.72s, Total Epoch Time: 289.92s
+2025-05-19 23:56:22,987 - INFO - Epoch 2/50, Loss: 0.0858, Val Mean AUC: 0.8092, Val Mean ACC: 0.7463, Val Mean F1: 0.4789
+Val AUC per class: 0.8796, 0.8667, 0.7778, 0.8416, 0.6803
+Val ACC per class: 0.9464, 0.8318, 0.6340, 0.8534, 0.4660
+Val F1 per class: 0.3475, 0.6326, 0.4586, 0.4300, 0.5259
+Train Time: 253.18s, Val Time: 26.27s, Total Epoch Time: 279.52s
+2025-05-20 00:01:08,239 - INFO - Epoch 3/50, Loss: 0.0831, Val Mean AUC: 0.8130, Val Mean ACC: 0.7342, Val Mean F1: 0.4769
+Val AUC per class: 0.8811, 0.8742, 0.7903, 0.8507, 0.6688
+Val ACC per class: 0.8984, 0.8250, 0.7734, 0.8408, 0.3335
+Val F1 per class: 0.3289, 0.6425, 0.4752, 0.4375, 0.5002
+Train Time: 258.27s, Val Time: 26.83s, Total Epoch Time: 285.19s
+2025-05-20 00:05:50,322 - INFO - Epoch 4/50, Loss: 0.0819, Val Mean AUC: 0.8215, Val Mean ACC: 0.8220, Val Mean F1: 0.5149
+Val AUC per class: 0.8987, 0.8768, 0.7919, 0.8625, 0.6775
+Val ACC per class: 0.9387, 0.8343, 0.7961, 0.8953, 0.6456
+Val F1 per class: 0.4261, 0.6433, 0.4766, 0.5074, 0.5212
+Train Time: 256.12s, Val Time: 25.81s, Total Epoch Time: 282.01s
+2025-05-20 00:10:30,233 - INFO - Epoch 5/50, Loss: 0.0808, Val Mean AUC: 0.8289, Val Mean ACC: 0.8274, Val Mean F1: 0.5023
+Val AUC per class: 0.8948, 0.8820, 0.7959, 0.8761, 0.6958
+Val ACC per class: 0.9550, 0.8295, 0.8121, 0.8574, 0.6828
+Val F1 per class: 0.3883, 0.6643, 0.4650, 0.4866, 0.5076
+Train Time: 254.04s, Val Time: 25.74s, Total Epoch Time: 279.85s
+2025-05-20 00:15:20,595 - INFO - Epoch 6/50, Loss: 0.0800, Val Mean AUC: 0.8257, Val Mean ACC: 0.8169, Val Mean F1: 0.5114
+Val AUC per class: 0.9079, 0.8774, 0.8042, 0.8601, 0.6788
+Val ACC per class: 0.9467, 0.8230, 0.8015, 0.8783, 0.6351
+Val F1 per class: 0.4132, 0.6530, 0.4876, 0.4820, 0.5211
+Train Time: 263.52s, Val Time: 26.70s, Total Epoch Time: 290.30s
+2025-05-20 00:20:04,189 - INFO - Epoch 7/50, Loss: 0.0795, Val Mean AUC: 0.8295, Val Mean ACC: 0.7326, Val Mean F1: 0.5120
+Val AUC per class: 0.9022, 0.8821, 0.7909, 0.8812, 0.6910
+Val ACC per class: 0.9519, 0.8197, 0.6441, 0.8778, 0.3694
+Val F1 per class: 0.4223, 0.6550, 0.4629, 0.5093, 0.5106
+Train Time: 257.75s, Val Time: 25.77s, Total Epoch Time: 283.59s
+2025-05-20 00:24:46,459 - INFO - Epoch 8/50, Loss: 0.0791, Val Mean AUC: 0.8268, Val Mean ACC: 0.7766, Val Mean F1: 0.5145
+Val AUC per class: 0.8973, 0.8830, 0.7928, 0.8796, 0.6812
+Val ACC per class: 0.9522, 0.8287, 0.8053, 0.9153, 0.3813
+Val F1 per class: 0.4240, 0.6632, 0.4714, 0.5010, 0.5129
+Train Time: 256.40s, Val Time: 25.72s, Total Epoch Time: 282.20s
+2025-05-20 00:29:26,843 - INFO - Epoch 9/50, Loss: 0.0784, Val Mean AUC: 0.8333, Val Mean ACC: 0.8329, Val Mean F1: 0.5296
+Val AUC per class: 0.9086, 0.8806, 0.8075, 0.8814, 0.6884
+Val ACC per class: 0.9540, 0.8308, 0.8126, 0.9107, 0.6565
+Val F1 per class: 0.4427, 0.6604, 0.4917, 0.5264, 0.5269
+Train Time: 252.86s, Val Time: 27.45s, Total Epoch Time: 280.38s
+2025-05-20 00:34:07,634 - INFO - Epoch 10/50, Loss: 0.0781, Val Mean AUC: 0.8292, Val Mean ACC: 0.8163, Val Mean F1: 0.5140
+Val AUC per class: 0.8986, 0.8736, 0.8083, 0.8833, 0.6824
+Val ACC per class: 0.9499, 0.8086, 0.8154, 0.8758, 0.6318
+Val F1 per class: 0.4125, 0.6387, 0.4857, 0.5040, 0.5295
+Train Time: 255.13s, Val Time: 25.52s, Total Epoch Time: 280.72s
+2025-05-20 00:38:47,752 - INFO - Epoch 11/50, Loss: 0.0775, Val Mean AUC: 0.8359, Val Mean ACC: 0.7760, Val Mean F1: 0.5254
+Val AUC per class: 0.9124, 0.8866, 0.8071, 0.8902, 0.6831
+Val ACC per class: 0.9515, 0.8224, 0.7895, 0.9160, 0.4007
+Val F1 per class: 0.4252, 0.6579, 0.5093, 0.5181, 0.5166
+Train Time: 253.12s, Val Time: 26.93s, Total Epoch Time: 280.12s
+2025-05-20 00:43:24,969 - INFO - Epoch 12/50, Loss: 0.0773, Val Mean AUC: 0.8306, Val Mean ACC: 0.8240, Val Mean F1: 0.5293
+Val AUC per class: 0.8999, 0.8789, 0.8054, 0.8896, 0.6795
+Val ACC per class: 0.9411, 0.8330, 0.8103, 0.9117, 0.6240
+Val F1 per class: 0.4462, 0.6604, 0.4863, 0.5267, 0.5270
+Train Time: 252.17s, Val Time: 24.91s, Total Epoch Time: 277.15s
+2025-05-20 00:48:01,395 - INFO - Epoch 13/50, Loss: 0.0772, Val Mean AUC: 0.8358, Val Mean ACC: 0.8263, Val Mean F1: 0.5215
+Val AUC per class: 0.9028, 0.8817, 0.8113, 0.8914, 0.6916
+Val ACC per class: 0.9479, 0.8303, 0.8044, 0.8879, 0.6607
+Val F1 per class: 0.3794, 0.6568, 0.5168, 0.5230, 0.5316
+Train Time: 251.59s, Val Time: 24.76s, Total Epoch Time: 276.43s
+2025-05-20 00:52:38,131 - INFO - Epoch 14/50, Loss: 0.0765, Val Mean AUC: 0.8371, Val Mean ACC: 0.8273, Val Mean F1: 0.5316
+Val AUC per class: 0.9075, 0.8848, 0.8112, 0.8883, 0.6937
+Val ACC per class: 0.9465, 0.8378, 0.7950, 0.8843, 0.6730
+Val F1 per class: 0.4410, 0.6646, 0.5155, 0.5170, 0.5200
+Train Time: 251.92s, Val Time: 24.74s, Total Epoch Time: 276.74s
+2025-05-20 00:57:14,951 - INFO - Epoch 15/50, Loss: 0.0759, Val Mean AUC: 0.8344, Val Mean ACC: 0.7755, Val Mean F1: 0.5339
+Val AUC per class: 0.9117, 0.8799, 0.8111, 0.8857, 0.6836
+Val ACC per class: 0.9524, 0.8225, 0.7986, 0.9054, 0.3986
+Val F1 per class: 0.4533, 0.6553, 0.5204, 0.5210, 0.5193
+Train Time: 251.81s, Val Time: 24.82s, Total Epoch Time: 276.70s
+2025-05-20 01:01:51,538 - INFO - Epoch 16/50, Loss: 0.0758, Val Mean AUC: 0.8341, Val Mean ACC: 0.7869, Val Mean F1: 0.5203
+Val AUC per class: 0.9105, 0.8844, 0.8039, 0.8840, 0.6877
+Val ACC per class: 0.9494, 0.8489, 0.8169, 0.9211, 0.3981
+Val F1 per class: 0.4123, 0.6548, 0.4800, 0.5366, 0.5179
+Train Time: 251.55s, Val Time: 24.96s, Total Epoch Time: 276.59s
+2025-05-20 01:06:30,732 - INFO - Epoch 17/50, Loss: 0.0753, Val Mean AUC: 0.8365, Val Mean ACC: 0.8348, Val Mean F1: 0.5284
+Val AUC per class: 0.9092, 0.8837, 0.8052, 0.8865, 0.6978
+Val ACC per class: 0.9449, 0.8433, 0.8098, 0.9119, 0.6643
+Val F1 per class: 0.4196, 0.6681, 0.4893, 0.5371, 0.5280
+Train Time: 251.81s, Val Time: 27.31s, Total Epoch Time: 279.19s
+2025-05-20 01:11:11,418 - INFO - Epoch 18/50, Loss: 0.0752, Val Mean AUC: 0.8325, Val Mean ACC: 0.8284, Val Mean F1: 0.5224
+Val AUC per class: 0.8995, 0.8813, 0.8039, 0.8860, 0.6916
+Val ACC per class: 0.9452, 0.8333, 0.7958, 0.9185, 0.6489
+Val F1 per class: 0.4211, 0.6620, 0.4884, 0.5172, 0.5235
+Train Time: 252.18s, Val Time: 28.43s, Total Epoch Time: 280.69s
+2025-05-20 01:15:47,978 - INFO - Epoch 19/50, Loss: 0.0747, Val Mean AUC: 0.8333, Val Mean ACC: 0.8276, Val Mean F1: 0.5286
+Val AUC per class: 0.9004, 0.8792, 0.7985, 0.8894, 0.6988
+Val ACC per class: 0.9384, 0.8252, 0.8132, 0.9115, 0.6494
+Val F1 per class: 0.4336, 0.6571, 0.4861, 0.5287, 0.5377
+Train Time: 251.72s, Val Time: 24.77s, Total Epoch Time: 276.56s
+2025-05-20 01:20:25,071 - INFO - Epoch 20/50, Loss: 0.0749, Val Mean AUC: 0.8322, Val Mean ACC: 0.7733, Val Mean F1: 0.5247
+Val AUC per class: 0.8979, 0.8787, 0.8029, 0.8878, 0.6936
+Val ACC per class: 0.9424, 0.8269, 0.7877, 0.8881, 0.4216
+Val F1 per class: 0.4048, 0.6615, 0.5048, 0.5267, 0.5257
+Train Time: 252.21s, Val Time: 24.81s, Total Epoch Time: 277.09s
+2025-05-20 01:25:01,899 - INFO - Epoch 21/50, Loss: 0.0747, Val Mean AUC: 0.8323, Val Mean ACC: 0.8278, Val Mean F1: 0.5237
+Val AUC per class: 0.8964, 0.8797, 0.8036, 0.8912, 0.6905
+Val ACC per class: 0.9268, 0.8441, 0.8094, 0.9167, 0.6419
+Val F1 per class: 0.4205, 0.6594, 0.4815, 0.5273, 0.5300
+Train Time: 251.78s, Val Time: 24.97s, Total Epoch Time: 276.83s
+2025-05-20 01:29:38,815 - INFO - Epoch 22/50, Loss: 0.0742, Val Mean AUC: 0.8280, Val Mean ACC: 0.8232, Val Mean F1: 0.5240
+Val AUC per class: 0.8929, 0.8750, 0.8033, 0.8821, 0.6865
+Val ACC per class: 0.9499, 0.8347, 0.8008, 0.8894, 0.6411
+Val F1 per class: 0.4237, 0.6544, 0.4975, 0.5188, 0.5259
+Train Time: 251.92s, Val Time: 24.92s, Total Epoch Time: 276.91s
+2025-05-20 01:34:15,432 - INFO - Epoch 23/50, Loss: 0.0741, Val Mean AUC: 0.8290, Val Mean ACC: 0.8230, Val Mean F1: 0.5290
+Val AUC per class: 0.8924, 0.8802, 0.8008, 0.8754, 0.6963
+Val ACC per class: 0.9515, 0.8234, 0.7927, 0.9127, 0.6346
+Val F1 per class: 0.4297, 0.6548, 0.5081, 0.5084, 0.5440
+Train Time: 251.72s, Val Time: 24.82s, Total Epoch Time: 276.62s
+2025-05-20 01:38:52,239 - INFO - Epoch 24/50, Loss: 0.0739, Val Mean AUC: 0.8328, Val Mean ACC: 0.8180, Val Mean F1: 0.5299
+Val AUC per class: 0.8955, 0.8823, 0.8051, 0.8798, 0.7012
+Val ACC per class: 0.9349, 0.8237, 0.8078, 0.9029, 0.6207
+Val F1 per class: 0.4269, 0.6592, 0.5030, 0.5063, 0.5543
+Train Time: 251.84s, Val Time: 24.90s, Total Epoch Time: 276.81s
+2025-05-20 01:38:52,239 - INFO - Early stopping!
+2025-05-20 01:38:52,240 - INFO - 
+Training Summary:
+Total Training Time: 6090.72s
+Total Validation Time: 625.58s
+Total Time: 6718.09s
+Average Epoch Time: 279.92s
+2025-05-20 01:38:52,240 - INFO - Training completed. Run test.py to evaluate on val or test set.
+2025-05-20 07:06:16,036 - INFO - 
+Test Results:
+2025-05-20 07:06:16,036 - INFO - Cardiomegaly:
+  AUC: 0.8769 (Benchmark: 0.904)
+  Accuracy: 0.9417
+  F1 Score: 0.4196
+2025-05-20 07:06:16,037 - INFO - Effusion:
+  AUC: 0.8781 (Benchmark: 0.863)
+  Accuracy: 0.8341
+  F1 Score: 0.6484
+  -> Surpassed benchmark!
+2025-05-20 07:06:16,037 - INFO - Atelectasis:
+  AUC: 0.8042 (Benchmark: 0.8)
+  Accuracy: 0.7849
+  F1 Score: 0.5132
+  -> Surpassed benchmark!
+2025-05-20 07:06:16,037 - INFO - Pneumothorax:
+  AUC: 0.8698 (Benchmark: 0.888)
+  Accuracy: 0.9286
+  F1 Score: 0.4824
+2025-05-20 07:06:16,038 - INFO - Infiltration:
+  AUC: 0.7160 (Benchmark: 0.713)
+  Accuracy: 0.6884
+  F1 Score: 0.5370
+  -> Surpassed benchmark!
+2025-05-20 07:06:16,038 - INFO - Mean Results:
+  Mean AUC: 0.8290
+  Mean ACC: 0.8355
+  Mean F1: 0.5201
+Evaluation Time: 51.69s
+2025-05-20 21:09:57,438 - INFO - 
+Test Results:
+2025-05-20 21:09:57,439 - INFO - Cardiomegaly:
+  AUC: 0.8769 (Benchmark: 0.81)
+  Accuracy: 0.9418
+  F1 Score: 0.4200
+  -> Surpassed benchmark!
+2025-05-20 21:09:57,439 - INFO - Effusion:
+  AUC: 0.8781 (Benchmark: 0.7585)
+  Accuracy: 0.8344
+  F1 Score: 0.6488
+  -> Surpassed benchmark!
+2025-05-20 21:09:57,439 - INFO - Atelectasis:
+  AUC: 0.8042 (Benchmark: 0.7003)
+  Accuracy: 0.7848
+  F1 Score: 0.5131
+  -> Surpassed benchmark!
+2025-05-20 21:09:57,440 - INFO - Pneumothorax:
+  AUC: 0.8698 (Benchmark: 0.7993)
+  Accuracy: 0.9287
+  F1 Score: 0.4828
+  -> Surpassed benchmark!
+2025-05-20 21:09:57,440 - INFO - Infiltration:
+  AUC: 0.7160 (Benchmark: 0.6614)
+  Accuracy: 0.6883
+  F1 Score: 0.5370
+  -> Surpassed benchmark!
+2025-05-20 21:09:57,440 - INFO - Mean Results:
+  Mean AUC: 0.8290
+  Mean ACC: 0.8356
+  Mean F1: 0.5203
+Evaluation Time: 54.48s
+2025-05-27 01:26:31,949 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-27 01:28:47,588 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-27 01:31:33,111 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-27 01:35:04,539 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-27 01:35:05,053 - INFO - Starting segmentation training. Dice and IoU scores will be logged for validation.
+2025-05-27 01:35:28,659 - INFO - Epoch 1/50, Seg Loss: 0.6008, Val Seg Loss: 0.5335, Val Mean Dice: 0.8579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 1.0000
+Train Time: 14.40s, Val Time: 9.20s, Total Epoch Time: 23.61s
+2025-05-27 01:35:52,799 - INFO - Epoch 2/50, Seg Loss: 0.5252, Val Seg Loss: 0.5756, Val Mean Dice: 0.8579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 1.0000
+Train Time: 14.52s, Val Time: 9.51s, Total Epoch Time: 24.03s
+2025-05-27 01:36:18,349 - INFO - Epoch 3/50, Seg Loss: 0.5232, Val Seg Loss: 0.5756, Val Mean Dice: 0.8579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 1.0000
+Train Time: 15.40s, Val Time: 10.15s, Total Epoch Time: 25.55s
+2025-05-27 01:36:43,554 - INFO - Epoch 4/50, Seg Loss: 0.5214, Val Seg Loss: 0.5756, Val Mean Dice: 0.8579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 1.0000
+Train Time: 15.42s, Val Time: 9.78s, Total Epoch Time: 25.20s
+2025-05-27 01:37:08,423 - INFO - Epoch 5/50, Seg Loss: 0.5203, Val Seg Loss: 0.5756, Val Mean Dice: 0.8579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 1.0000
+Train Time: 15.05s, Val Time: 9.81s, Total Epoch Time: 24.87s
+2025-05-27 01:37:32,705 - INFO - Epoch 6/50, Seg Loss: 0.5193, Val Seg Loss: 0.5756, Val Mean Dice: 0.8579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 1.0000
+Train Time: 15.03s, Val Time: 9.24s, Total Epoch Time: 24.28s
+2025-05-27 01:37:56,775 - INFO - Epoch 7/50, Seg Loss: 0.5186, Val Seg Loss: 0.5756, Val Mean Dice: 0.8579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 1.0000
+Train Time: 14.38s, Val Time: 9.68s, Total Epoch Time: 24.07s
+2025-05-27 01:38:21,864 - INFO - Epoch 8/50, Seg Loss: 0.5183, Val Seg Loss: 0.5756, Val Mean Dice: 0.8579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 1.0000
+Train Time: 15.28s, Val Time: 9.80s, Total Epoch Time: 25.09s
+2025-05-27 01:38:47,533 - INFO - Epoch 9/50, Seg Loss: 0.5176, Val Seg Loss: 0.5756, Val Mean Dice: 0.8579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 1.0000
+Train Time: 15.90s, Val Time: 9.77s, Total Epoch Time: 25.67s
+2025-05-27 01:39:10,933 - INFO - Epoch 10/50, Seg Loss: 0.5181, Val Seg Loss: 0.5756, Val Mean Dice: 0.8579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 1.0000
+Train Time: 14.28s, Val Time: 9.12s, Total Epoch Time: 23.40s
+2025-05-27 01:39:34,861 - INFO - Epoch 11/50, Seg Loss: 0.5183, Val Seg Loss: 0.5756, Val Mean Dice: 0.8579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 1.0000
+Train Time: 14.47s, Val Time: 9.46s, Total Epoch Time: 23.93s
+2025-05-27 01:39:34,861 - INFO - Early stopping!
+2025-05-27 01:39:34,861 - INFO - 
+Training Summary:
+Total Training Time: 164.13s
+Total Validation Time: 105.51s
+Total Time: 269.69s
+Average Epoch Time: 24.52s
+2025-05-27 01:39:34,865 - INFO - Training completed. Run seg_test.py to evaluate on val or test set.
+2025-05-27 01:40:10,486 - INFO - 
+Test Segmentation Results:
+2025-05-27 01:40:10,487 - INFO - Cardiomegaly:
+  Dice Score: 0.8077
+  IoU Score: 0.8077
+2025-05-27 01:40:10,487 - INFO - Effusion:
+  Dice Score: 0.7923
+  IoU Score: 0.7923
+2025-05-27 01:40:10,487 - INFO - Atelectasis:
+  Dice Score: 0.6923
+  IoU Score: 0.6923
+2025-05-27 01:40:10,487 - INFO - Pneumothorax:
+  Dice Score: 0.8692
+  IoU Score: 0.8692
+2025-05-27 01:40:10,487 - INFO - Infiltration:
+  Dice Score: 1.0000
+  IoU Score: 1.0000
+2025-05-27 01:40:10,488 - INFO - Mean Results:
+  Mean Dice: 0.8323
+  Mean IoU: 0.8323
+Evaluation Time: 9.82s
+2025-05-27 01:44:11,850 - INFO - Train: 42652, Val: 6024, Test: 11148
+2025-05-27 01:44:12,366 - INFO - Starting segmentation training. Dice and IoU scores will be logged for validation.
+2025-05-27 01:44:35,341 - INFO - Epoch 1/50, Seg Loss: 0.6088, Val Seg Loss: 0.5521, Val Mean Dice: 0.6492
+Val Dice per class: 0.0000, 0.7760, 0.8067, 0.8971, 0.7663
+Train Time: 14.22s, Val Time: 8.75s, Total Epoch Time: 22.97s
+2025-05-27 01:44:58,501 - INFO - Epoch 2/50, Seg Loss: 0.5291, Val Seg Loss: 0.5659, Val Mean Dice: 0.8112
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 0.7663
+Train Time: 13.62s, Val Time: 9.45s, Total Epoch Time: 23.07s
+2025-05-27 01:45:21,535 - INFO - Epoch 3/50, Seg Loss: 0.5292, Val Seg Loss: 0.7619, Val Mean Dice: 0.8112
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 0.7663
+Train Time: 14.01s, Val Time: 8.90s, Total Epoch Time: 22.92s
+2025-05-27 01:45:44,758 - INFO - Epoch 4/50, Seg Loss: 0.5278, Val Seg Loss: 0.7619, Val Mean Dice: 0.8112
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 0.7663
+Train Time: 14.38s, Val Time: 8.84s, Total Epoch Time: 23.22s
+2025-05-27 01:46:08,882 - INFO - Epoch 5/50, Seg Loss: 0.5264, Val Seg Loss: 0.7619, Val Mean Dice: 0.8112
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 0.7663
+Train Time: 14.81s, Val Time: 9.31s, Total Epoch Time: 24.12s
+2025-05-27 01:46:32,403 - INFO - Epoch 6/50, Seg Loss: 0.5252, Val Seg Loss: 0.7619, Val Mean Dice: 0.8112
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 0.7663
+Train Time: 14.42s, Val Time: 9.09s, Total Epoch Time: 23.52s
+2025-05-27 01:46:55,364 - INFO - Epoch 7/50, Seg Loss: 0.5240, Val Seg Loss: 0.7619, Val Mean Dice: 0.8112
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 0.7663
+Train Time: 13.93s, Val Time: 9.03s, Total Epoch Time: 22.96s
+2025-05-27 01:47:18,587 - INFO - Epoch 8/50, Seg Loss: 0.5249, Val Seg Loss: 0.7619, Val Mean Dice: 0.8112
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 0.7663
+Train Time: 14.30s, Val Time: 8.92s, Total Epoch Time: 23.22s
+2025-05-27 01:47:41,942 - INFO - Epoch 9/50, Seg Loss: 0.5243, Val Seg Loss: 1.0817, Val Mean Dice: 0.6492
+Val Dice per class: 0.0000, 0.7760, 0.8067, 0.8971, 0.7663
+Train Time: 14.26s, Val Time: 9.09s, Total Epoch Time: 23.35s
+2025-05-27 01:48:05,390 - INFO - Epoch 10/50, Seg Loss: 0.5234, Val Seg Loss: 0.5224, Val Mean Dice: 0.8112
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 0.7663
+Train Time: 14.23s, Val Time: 9.21s, Total Epoch Time: 23.45s
+2025-05-27 01:48:28,892 - INFO - Epoch 11/50, Seg Loss: 0.5240, Val Seg Loss: 0.5652, Val Mean Dice: 0.8112
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 0.7663
+Train Time: 14.26s, Val Time: 9.23s, Total Epoch Time: 23.50s
+2025-05-27 01:48:51,740 - INFO - Epoch 12/50, Seg Loss: 0.5231, Val Seg Loss: 0.9214, Val Mean Dice: 0.6579
+Val Dice per class: 0.8096, 0.7760, 0.8067, 0.8971, 0.0000
+Train Time: 14.14s, Val Time: 8.70s, Total Epoch Time: 22.85s
+2025-05-27 01:48:51,740 - INFO - Early stopping!
+2025-05-27 01:48:51,740 - INFO - 
+Training Summary:
+Total Training Time: 170.58s
+Total Validation Time: 108.53s
+Total Time: 279.16s
+Average Epoch Time: 23.26s
+2025-05-27 01:48:51,743 - INFO - Training completed. Run seg_test.py to evaluate on val or test set.
+2025-05-27 01:49:17,971 - INFO - 
+Test Segmentation Results:
+2025-05-27 01:49:17,972 - INFO - Cardiomegaly:
+  Dice Score: 0.8077
+  IoU Score: 0.8077
+2025-05-27 01:49:17,972 - INFO - Effusion:
+  Dice Score: 0.7923
+  IoU Score: 0.7923
+2025-05-27 01:49:17,972 - INFO - Atelectasis:
+  Dice Score: 0.6923
+  IoU Score: 0.6923
+2025-05-27 01:49:17,972 - INFO - Pneumothorax:
+  Dice Score: 0.8692
+  IoU Score: 0.8692
+2025-05-27 01:49:17,972 - INFO - Infiltration:
+  Dice Score: 0.8538
+  IoU Score: 0.8538
+2025-05-27 01:49:17,972 - INFO - Mean Results:
+  Mean Dice: 0.8031
+  Mean IoU: 0.8031
+Evaluation Time: 9.23s
+2025-05-27 01:51:02,201 - INFO - Segmentation Test: 130 images
+2025-05-27 01:51:13,969 - INFO - 
+Test Segmentation Results:
+2025-05-27 01:51:13,969 - INFO - Cardiomegaly:
+  Dice Score: 0.8077
+  IoU Score: 0.8077
+  Pixel Accuracy: 0.9677
+2025-05-27 01:51:13,970 - INFO - Effusion:
+  Dice Score: 0.7923
+  IoU Score: 0.7923
+  Pixel Accuracy: 0.9875
+2025-05-27 01:51:13,970 - INFO - Atelectasis:
+  Dice Score: 0.6923
+  IoU Score: 0.6923
+  Pixel Accuracy: 0.9893
+2025-05-27 01:51:13,970 - INFO - Pneumothorax:
+  Dice Score: 0.8692
+  IoU Score: 0.8692
+  Pixel Accuracy: 0.9929
+2025-05-27 01:51:13,970 - INFO - Infiltration:
+  Dice Score: 0.8538
+  IoU Score: 0.8538
+  Pixel Accuracy: 0.9856
+2025-05-27 01:51:13,970 - INFO - Mean Results:
+  Mean Dice: 0.8031
+  Mean IoU: 0.8031
+  Mean Pixel Accuracy: 0.9846
+Evaluation Time: 11.38s
+2025-05-27 01:54:26,131 - INFO - Segmentation Test: 130 images
+2025-05-27 01:54:35,319 - INFO - Heatmap Cardiomegaly for sample 0: min=0, max=0
+2025-05-27 01:54:35,330 - INFO - Heatmap Effusion for sample 0: min=0, max=0
+2025-05-27 01:54:35,341 - INFO - Heatmap Atelectasis for sample 0: min=0, max=0
+2025-05-27 01:54:35,352 - INFO - Heatmap Pneumothorax for sample 0: min=0, max=0
+2025-05-27 01:54:35,362 - INFO - Heatmap Infiltration for sample 0: min=0, max=0
+2025-05-27 01:54:35,389 - INFO - Heatmap Cardiomegaly for sample 1: min=0, max=0
+2025-05-27 01:54:35,399 - INFO - Heatmap Effusion for sample 1: min=0, max=0
+2025-05-27 01:54:35,410 - INFO - Heatmap Atelectasis for sample 1: min=0, max=0
+2025-05-27 01:54:35,420 - INFO - Heatmap Pneumothorax for sample 1: min=0, max=0
+2025-05-27 01:54:35,430 - INFO - Heatmap Infiltration for sample 1: min=0, max=0
+2025-05-27 01:54:35,454 - INFO - Heatmap Cardiomegaly for sample 2: min=0, max=0
+2025-05-27 01:54:35,464 - INFO - Heatmap Effusion for sample 2: min=0, max=0
+2025-05-27 01:54:35,474 - INFO - Heatmap Atelectasis for sample 2: min=0, max=0
+2025-05-27 01:54:35,484 - INFO - Heatmap Pneumothorax for sample 2: min=0, max=0
+2025-05-27 01:54:35,493 - INFO - Heatmap Infiltration for sample 2: min=0, max=0
+2025-05-27 01:54:35,520 - INFO - Heatmap Cardiomegaly for sample 3: min=0, max=0
+2025-05-27 01:54:35,531 - INFO - Heatmap Effusion for sample 3: min=0, max=0
+2025-05-27 01:54:35,541 - INFO - Heatmap Atelectasis for sample 3: min=0, max=0
+2025-05-27 01:54:35,551 - INFO - Heatmap Pneumothorax for sample 3: min=0, max=0
+2025-05-27 01:54:35,561 - INFO - Heatmap Infiltration for sample 3: min=0, max=0
+2025-05-27 01:54:35,587 - INFO - Heatmap Cardiomegaly for sample 4: min=0, max=0
+2025-05-27 01:54:35,595 - INFO - Heatmap Effusion for sample 4: min=0, max=0
+2025-05-27 01:54:35,602 - INFO - Heatmap Atelectasis for sample 4: min=0, max=0
+2025-05-27 01:54:35,610 - INFO - Heatmap Pneumothorax for sample 4: min=0, max=0
+2025-05-27 01:54:35,618 - INFO - Heatmap Infiltration for sample 4: min=0, max=0
+2025-05-27 01:54:36,786 - INFO - 
+Test Segmentation Results:
+2025-05-27 01:54:36,787 - INFO - Cardiomegaly:
+  Dice Score: 0.8077
+  IoU Score: 0.8077
+  Pixel Accuracy: 0.9677
+2025-05-27 01:54:36,787 - INFO - Effusion:
+  Dice Score: 0.7923
+  IoU Score: 0.7923
+  Pixel Accuracy: 0.9875
+2025-05-27 01:54:36,787 - INFO - Atelectasis:
+  Dice Score: 0.6923
+  IoU Score: 0.6923
+  Pixel Accuracy: 0.9893
+2025-05-27 01:54:36,787 - INFO - Pneumothorax:
+  Dice Score: 0.8692
+  IoU Score: 0.8692
+  Pixel Accuracy: 0.9929
+2025-05-27 01:54:36,787 - INFO - Infiltration:
+  Dice Score: 0.8538
+  IoU Score: 0.8538
+  Pixel Accuracy: 0.9856
+2025-05-27 01:54:36,787 - INFO - Mean Results:
+  Mean Dice: 0.8031
+  Mean IoU: 0.8031
+  Mean Pixel Accuracy: 0.9846
+Evaluation Time: 10.25s
+2025-05-27 02:00:10,156 - INFO - Segmentation Test: 130 images
+2025-05-27 02:00:18,607 - INFO - Heatmap Cardiomegaly for 00000072_000.png: min=0, max=0
+2025-05-27 02:00:18,750 - INFO - Heatmap Effusion for 00000072_000.png: min=0, max=0
+2025-05-27 02:00:18,892 - INFO - Heatmap Atelectasis for 00000072_000.png: min=0, max=0
+2025-05-27 02:00:19,040 - INFO - Heatmap Pneumothorax for 00000072_000.png: min=0, max=0
+2025-05-27 02:00:19,183 - INFO - Heatmap Infiltration for 00000072_000.png: min=0, max=0
+2025-05-27 02:00:19,336 - INFO - Heatmap Cardiomegaly for 00000643_002.png: min=0, max=0
+2025-05-27 02:00:19,478 - INFO - Heatmap Effusion for 00000643_002.png: min=0, max=0
+2025-05-27 02:00:19,619 - INFO - Heatmap Atelectasis for 00000643_002.png: min=0, max=0
+2025-05-27 02:00:19,769 - INFO - Heatmap Pneumothorax for 00000643_002.png: min=0, max=0
+2025-05-27 02:00:19,913 - INFO - Heatmap Infiltration for 00000643_002.png: min=0, max=0
+2025-05-27 02:00:20,069 - INFO - Heatmap Cardiomegaly for 00000902_001.png: min=0, max=0
+2025-05-27 02:00:20,213 - INFO - Heatmap Effusion for 00000902_001.png: min=0, max=0
+2025-05-27 02:00:20,355 - INFO - Heatmap Atelectasis for 00000902_001.png: min=0, max=0
+2025-05-27 02:00:20,496 - INFO - Heatmap Pneumothorax for 00000902_001.png: min=0, max=0
+2025-05-27 02:00:20,638 - INFO - Heatmap Infiltration for 00000902_001.png: min=0, max=0
+2025-05-27 02:00:20,792 - INFO - Heatmap Cardiomegaly for 00001039_005.png: min=0, max=0
+2025-05-27 02:00:20,939 - INFO - Heatmap Effusion for 00001039_005.png: min=0, max=0
+2025-05-27 02:00:21,081 - INFO - Heatmap Atelectasis for 00001039_005.png: min=0, max=0
+2025-05-27 02:00:21,228 - INFO - Heatmap Pneumothorax for 00001039_005.png: min=0, max=0
+2025-05-27 02:00:21,369 - INFO - Heatmap Infiltration for 00001039_005.png: min=0, max=0
+2025-05-27 02:00:21,528 - INFO - Heatmap Cardiomegaly for 00001153_004.png: min=0, max=0
+2025-05-27 02:00:21,669 - INFO - Heatmap Effusion for 00001153_004.png: min=0, max=0
+2025-05-27 02:00:21,811 - INFO - Heatmap Atelectasis for 00001153_004.png: min=0, max=0
+2025-05-27 02:00:21,962 - INFO - Heatmap Pneumothorax for 00001153_004.png: min=0, max=0
+2025-05-27 02:00:22,099 - INFO - Heatmap Infiltration for 00001153_004.png: min=0, max=0
+2025-05-27 02:00:23,160 - INFO - 
+Test Segmentation Results:
+2025-05-27 02:00:23,160 - INFO - Cardiomegaly:
+  Dice Score: 0.8077
+  IoU Score: 0.8077
+  Pixel Accuracy: 0.9677
+2025-05-27 02:00:23,160 - INFO - Effusion:
+  Dice Score: 0.7923
+  IoU Score: 0.7923
+  Pixel Accuracy: 0.9875
+2025-05-27 02:00:23,160 - INFO - Atelectasis:
+  Dice Score: 0.6923
+  IoU Score: 0.6923
+  Pixel Accuracy: 0.9893
+2025-05-27 02:00:23,160 - INFO - Pneumothorax:
+  Dice Score: 0.8692
+  IoU Score: 0.8692
+  Pixel Accuracy: 0.9929
+2025-05-27 02:00:23,161 - INFO - Infiltration:
+  Dice Score: 0.8538
+  IoU Score: 0.8538
+  Pixel Accuracy: 0.9856
+2025-05-27 02:00:23,161 - INFO - Mean Results:
+  Mean Dice: 0.8031
+  Mean IoU: 0.8031
+  Mean Pixel Accuracy: 0.9846
+Evaluation Time: 12.66s
+2025-05-27 02:07:58,049 - INFO - Segmentation Test: 130 images
+2025-05-27 02:08:06,982 - INFO - Heatmap Cardiomegaly for 00000072_000.png: min=0, max=0
+2025-05-27 02:08:07,128 - INFO - Heatmap Effusion for 00000072_000.png: min=0, max=0
+2025-05-27 02:08:07,272 - INFO - Heatmap Atelectasis for 00000072_000.png: min=0, max=0
+2025-05-27 02:08:07,423 - INFO - Heatmap Pneumothorax for 00000072_000.png: min=0, max=0
+2025-05-27 02:08:07,565 - INFO - Heatmap Infiltration for 00000072_000.png: min=0, max=0
+2025-05-27 02:08:07,718 - INFO - Heatmap Cardiomegaly for 00000643_002.png: min=0, max=0
+2025-05-27 02:08:07,864 - INFO - Heatmap Effusion for 00000643_002.png: min=0, max=0
+2025-05-27 02:08:08,006 - INFO - Heatmap Atelectasis for 00000643_002.png: min=0, max=0
+2025-05-27 02:08:08,161 - INFO - Heatmap Pneumothorax for 00000643_002.png: min=0, max=0
+2025-05-27 02:08:08,306 - INFO - Heatmap Infiltration for 00000643_002.png: min=0, max=0
+2025-05-27 02:08:08,459 - INFO - Heatmap Cardiomegaly for 00000902_001.png: min=0, max=0
+2025-05-27 02:08:08,601 - INFO - Heatmap Effusion for 00000902_001.png: min=0, max=0
+2025-05-27 02:08:08,742 - INFO - Heatmap Atelectasis for 00000902_001.png: min=0, max=0
+2025-05-27 02:08:08,888 - INFO - Heatmap Pneumothorax for 00000902_001.png: min=0, max=0
+2025-05-27 02:08:09,030 - INFO - Heatmap Infiltration for 00000902_001.png: min=0, max=0
+2025-05-27 02:08:09,185 - INFO - Heatmap Cardiomegaly for 00001039_005.png: min=0, max=0
+2025-05-27 02:08:09,326 - INFO - Heatmap Effusion for 00001039_005.png: min=0, max=0
+2025-05-27 02:08:09,467 - INFO - Heatmap Atelectasis for 00001039_005.png: min=0, max=0
+2025-05-27 02:08:09,609 - INFO - Heatmap Pneumothorax for 00001039_005.png: min=0, max=0
+2025-05-27 02:08:09,751 - INFO - Heatmap Infiltration for 00001039_005.png: min=0, max=0
+2025-05-27 02:08:09,912 - INFO - Heatmap Cardiomegaly for 00001153_004.png: min=0, max=0
+2025-05-27 02:08:10,053 - INFO - Heatmap Effusion for 00001153_004.png: min=0, max=0
+2025-05-27 02:08:10,194 - INFO - Heatmap Atelectasis for 00001153_004.png: min=0, max=0
+2025-05-27 02:08:10,341 - INFO - Heatmap Pneumothorax for 00001153_004.png: min=0, max=0
+2025-05-27 02:08:10,482 - INFO - Heatmap Infiltration for 00001153_004.png: min=0, max=0
+2025-05-27 02:08:11,631 - INFO - 
+Test Segmentation Results:
+2025-05-27 02:08:11,632 - INFO - Cardiomegaly:
+  Dice Score: 0.8077
+  IoU Score: 0.8077
+  Pixel Accuracy: 0.9677
+2025-05-27 02:08:11,632 - INFO - Effusion:
+  Dice Score: 0.7923
+  IoU Score: 0.7923
+  Pixel Accuracy: 0.9875
+2025-05-27 02:08:11,632 - INFO - Atelectasis:
+  Dice Score: 0.6923
+  IoU Score: 0.6923
+  Pixel Accuracy: 0.9893
+2025-05-27 02:08:11,632 - INFO - Pneumothorax:
+  Dice Score: 0.8692
+  IoU Score: 0.8692
+  Pixel Accuracy: 0.9929
+2025-05-27 02:08:11,632 - INFO - Infiltration:
+  Dice Score: 0.8538
+  IoU Score: 0.8538
+  Pixel Accuracy: 0.9856
+2025-05-27 02:08:11,633 - INFO - Mean Results:
+  Mean Dice: 0.8031
+  Mean IoU: 0.8031
+  Mean Pixel Accuracy: 0.9846
+Evaluation Time: 13.22s

@@ -1,0 +1,21 @@
+data:
+  image_dir: D:\\UET\\Thesis\\Source\\chest_xray_local_data\\data\\images
+  data_file: D:\\UET\\Thesis\\Source\\ChestXray-Classification-Segmentation\\data\\ChestXray14_5_labels_balanced_no_finding_19894.xlsx
+  train_split: 0.7
+  val_split: 0.1
+  test_split: 0.2
+
+model:
+  name: chestxray_model #efficientnet_b0
+  num_classes: 5
+  pretrained: true
+
+training:
+  batch_size: 16
+  num_epochs: 50
+  learning_rate: 0.0001
+  patience: 10 
+
+logging:
+  log_dir: logs/
+  log_file: training.log
