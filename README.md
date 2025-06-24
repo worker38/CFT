@@ -4,7 +4,7 @@
 
 Dự án này triển khai một pipeline học sâu để phân loại và phân đoạn các bệnh lý trong hình ảnh X-quang ngực. Hệ thống hỗ trợ phân loại đa nhãn và phân đoạn cho năm bệnh lý: **Tăng kích thước tim (Cardiomegaly)**, **Tràn dịch màng phổi (Effusion)**, **Xẹp phổi (Atelectasis)**, **Tràn khí màng phổi (Pneumothorax)**, và **Thâm nhiễm (Infiltration)**. Pipeline sử dụng **EfficientNet-B3** làm backbone, **Feature Pyramid Network (FPN)** để trích xuất đặc trưng, và **Mini-Transformer** để cải thiện hiệu quả phân loại. Mô hình phân đoạn tạo ra các mặt nạ bệnh lý được dẫn hướng bởi heatmap từ mô hình phân loại.
 
-## Cấu trúc dự án
+## Cấu trúc dự án:
 
 - **src/**: Thư mục chứa mã nguồn chính
   - `dataset.py`: Định nghĩa `ChestXrayDataset` cho phân loại và `ChestXraySegDataset` cho phân đoạn, bao gồm tăng cường dữ liệu và tiền xử lý.
