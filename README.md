@@ -1,5 +1,4 @@
-# ChestXray-CFT
-Deeplearning Model for ChestXray14 Classification
+# CFT: A Hybrid Machine Learning Method For Diagnosing The Five Common Lung Diseases Based On X-ray Images
 
 # Phân Loại và Phân Đoạn Bệnh Lý X-Quang Ngực
 
