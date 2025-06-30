@@ -1,98 +1,113 @@
 # CFT: A Hybrid Machine Learning Method For Diagnosing The Five Common Lung Diseases Based On X-ray Images
 
-# Phân Loại và Phân Đoạn Bệnh Lý X-Quang Ngực
+# Chest X-ray Disease Classification and Segmentation
 
-Dự án này triển khai một pipeline học sâu để phân loại và phân đoạn các bệnh lý trong hình ảnh X-quang ngực. Hệ thống hỗ trợ phân loại đa nhãn và phân đoạn cho năm bệnh lý: **Tăng kích thước tim (Cardiomegaly)**, **Tràn dịch màng phổi (Effusion)**, **Xẹp phổi (Atelectasis)**, **Tràn khí màng phổi (Pneumothorax)**, và **Thâm nhiễm (Infiltration)**. Pipeline sử dụng **EfficientNet-B3** làm backbone, **Feature Pyramid Network (FPN)** để trích xuất đặc trưng, và **Mini-Transformer** để cải thiện hiệu quả phân loại. Mô hình phân đoạn tạo ra các mặt nạ bệnh lý được dẫn hướng bởi heatmap từ mô hình phân loại.
+This project implements a deep learning pipeline for **multi-label classification** and **lesion segmentation** of chest X-ray images. It supports five thoracic diseases: **Cardiomegaly**, **Effusion**, **Atelectasis**, **Pneumothorax**, and **Infiltration**. The pipeline uses **EfficientNet-B3** as the backbone, **Feature Pyramid Network (FPN)** for multi-scale feature extraction, and a **Mini-Transformer** for enhanced classification. The segmentation model generates lesion masks guided by heatmaps from the classification output.
 
-## Cấu trúc dự án:
+## Project Structure
 
-- **src/**: Thư mục chứa mã nguồn chính
-  - `dataset.py`: Định nghĩa `ChestXrayDataset` cho phân loại và `ChestXraySegDataset` cho phân đoạn, bao gồm tăng cường dữ liệu và tiền xử lý.
-  - `model.py`: Triển khai `ChestXrayModel` cho phân loại và `ChestXraySegModel` cho phân đoạn, sử dụng EfficientNet-B3, FPN, và Mini-Transformer.
-  - `train.py`: Script huấn luyện mô hình phân loại, sử dụng Focal Loss và tích lũy gradient.
-  - `seg_train.py`: Script huấn luyện mô hình phân đoạn, kết hợp BCE Loss và Dice Loss.
-  - `utils.py`: Các hàm tiện ích bao gồm Focal Loss, Dice Loss, phân chia dữ liệu theo tầng (stratified split), và các chỉ số đánh giá (AUC, Dice, IoU).
-- **main.py**: Điểm bắt đầu để huấn luyện mô hình phân loại.
-- **seg_main.py**: Điểm bắt đầu để huấn luyện mô hình phân đoạn.
-- **test.py**: Đánh giá mô hình phân loại trên tập val hoặc test, so sánh AUC với các benchmark.
-- **seg_test.py**: Đánh giá mô hình phân đoạn, tính toán Dice, IoU, độ chính xác pixel, và lưu kết quả trực quan.
-- **configs/config.yaml**: File cấu hình cho tham số mô hình, dữ liệu, và huấn luyện.
-- **data/**: Thư mục lưu các file CSV chia dữ liệu và dữ liệu hộp giới hạn (`BBox_List_2017.csv`).
-- **models/**: Thư mục lưu trọng số mô hình đã huấn luyện.
-- **results/**: Thư mục lưu kết quả trực quan của phân đoạn.
+- **src/**: Source code directory  
+  - `dataset.py`: Defines classification and segmentation datasets, including augmentation and preprocessing.  
+  - `model.py`: Implements classification and segmentation models using EfficientNet-B3, FPN, and Mini-Transformer.  
+  - `train.py`: Classification training script using Focal Loss and gradient accumulation.  
+  - `seg_train.py`: Segmentation training script using BCE Loss + Dice Loss.  
+  - `utils.py`: Includes utility functions like Focal Loss, Dice Loss, stratified split, and evaluation metrics.  
+- **main.py**: Entry point for classification training.  
+- **seg_main.py**: Entry point for segmentation training.  
+- **test.py**: Classification evaluation with AUC comparison.  
+- **seg_test.py**: Segmentation evaluation and visualization.  
+- **configs/config.yaml**: Configuration file for model, data, and training parameters.  
+- **data/**: Contains data splits and bounding box annotations.  
+- **models/**: Saved trained models.  
+- **results/**: Visual results for segmentation.
 
-## Tính năng
+## Features
 
-- **Phân loại**: Phân loại đa nhãn sử dụng Focal Loss, tích hợp metadata (tuổi, giới tính, góc chụp), và tạo heatmap để định vị bệnh lý.
-- **Phân đoạn**: Tạo mặt nạ cho từng bệnh lý dựa trên chú thích hộp giới hạn, được dẫn hướng bởi heatmap từ mô hình phân loại.
-- **Xử lý dữ liệu**: Phân chia dữ liệu theo tầng dựa trên bệnh lý và ID bệnh nhân để đảm bảo phân phối cân bằng giữa các tập train/val/test.
-- **Đánh giá**:
-  - Phân loại: Tính AUC, độ chính xác, và F1 score, so sánh với benchmark từ Table 17 trong tài liệu `ARXIV_V5_CHESTXRAY.pdf`.
-  - Phân đoạn: Tính Dice, IoU, và độ chính xác pixel.
-- **Huấn luyện**: Hỗ trợ dừng sớm (early stopping), lập lịch tốc độ học cosine annealing, và tích lũy gradient để tối ưu bộ nhớ.
-- **Trực quan hóa**: Lưu kết quả phân đoạn dưới dạng hình ảnh với heatmap màu và chú thích hộp giới hạn.
+- **Classification**:
+  - Multi-label classification with Focal Loss.
+  - Metadata integration (age, gender, view position).
+  - Heatmap generation for weak lesion localization.
 
-## Yêu cầu
+- **Segmentation**:
+  - Disease-specific mask generation using bounding boxes and classification heatmaps.
 
-- Python 3.8 trở lên
-- PyTorch
-- torchvision
-- pandas
-- numpy
-- scikit-learn
-- timm
-- pyyaml
-- tqdm
-- PIL (Pillow)
+- **Data Handling**:
+  - Stratified patient-based data splitting for balanced train/val/test sets.
 
-Cài đặt các thư viện:
+- **Evaluation**:
+  - **Classification**: AUC, Accuracy, F1 Score — compared with `ARXIV_V5_CHESTXRAY.pdf` benchmarks.
+  - **Segmentation**: Dice score, IoU, and pixel accuracy.
+
+- **Training**:
+  - Early stopping, cosine annealing scheduler, gradient accumulation.
+
+- **Visualization**:
+  - Saves color heatmaps and bounding box overlays on segmentation outputs.
+
+## Requirements
+
+- Python ≥ 3.8  
+- torch  
+- torchvision  
+- pandas  
+- numpy  
+- scikit-learn  
+- timm  
+- pyyaml  
+- tqdm  
+- pillow  
+
+Install dependencies:
+
 ```bash
 pip install torch torchvision pandas numpy scikit-learn timm pyyaml tqdm pillow
 ```
 
-## Dữ liệu
+## Dataset
 
-- **Dữ liệu đầu vào**:
-  - Hình ảnh X-quang ngực trong thư mục `config['data']['image_dir']`.
-  - Metadata và nhãn trong file Excel được chỉ định tại `config['data']['data_file']`.
-  - Chú thích hộp giới hạn trong file `data/BBox_List_2017.csv`.
-- **Tiền xử lý**:
-  - Hình ảnh được resize về 224x224, chuẩn hóa với mean/std của ImageNet.
-  - Tăng cường dữ liệu: lật ngẫu nhiên, xoay, thay đổi màu sắc, làm mờ Gaussian, và xóa ngẫu nhiên.
-  - Metadata được chuẩn hóa: tuổi giới hạn trong khoảng 0-100, mã hóa giới tính và góc chụp.
+- **Inputs**:
+  - Chest X-ray images in `config['data']['image_dir']`
+  - Labels and metadata in Excel file at `config['data']['data_file']`
+  - Bounding boxes in `data/BBox_List_2017.csv`
 
-## Cấu hình chính
+- **Preprocessing**:
+  - Resize to 224x224, normalize with ImageNet mean/std.
+  - Augmentations: random flip, rotation, color jitter, Gaussian blur, random erasing.
+  - Normalize metadata: scale age to [0, 1], binary encode gender and view position.
 
-- **Mô hình**:
-  - `name`: `chestxray_model` (phân loại) hoặc `chestxray_seg_model` (phân đoạn).
-  - `num_classes`: 5 (cho năm bệnh lý).
-  - `pretrained`: Sử dụng EfficientNet-B3 đã được huấn luyện trước trên ImageNet.
-- **Dữ liệu**:
-  - `data_file`: Đường dẫn đến file Excel chứa nhãn và metadata.
-  - `image_dir`: Đường dẫn đến thư mục chứa hình ảnh X-quang.
-  - `train_split`, `val_split`, `test_split`: Tỷ lệ chia dữ liệu (ví dụ: 0.7, 0.15, 0.15).
-- **Huấn luyện**:
-  - `batch_size`: Kích thước batch (ví dụ: 16).
-  - `num_epochs`: Số epoch tối đa (ví dụ: 50).
-  - `patience`: Độ kiên nhẫn cho dừng sớm (ví dụ: 5).
-  - `learning_rate`: Tốc độ học ban đầu (ví dụ: 0.0001).
+## Configuration Highlights
 
-## Kết quả mẫu
+- **Model**:
+  - `name`: `chestxray_model` (classification) or `chestxray_seg_model` (segmentation)
+  - `num_classes`: 5
+  - `pretrained`: true (ImageNet)
 
-Mô hình phân loại được đánh giá trên tập test với các chỉ số sau (ngày 20/05/2025):
+- **Data**:
+  - `data_file`: Path to label file
+  - `image_dir`: Path to image folder
+  - `train_split`, `val_split`, `test_split`: e.g., 0.7, 0.15, 0.15
 
-| Bệnh lý               | AUC        | Accuracy   | F1 Score   | 
-|-----------------------|------------|------------|------------|
-| Tăng kích thước tim   | 0.8769     | 0.9418     | 0.4200     | 
-| Tràn dịch màng phổi   | 0.8781     | 0.8344     | 0.6488     |
-| Xẹp phổi              | 0.8042     | 0.7848     | 0.5131     | 
-| Tràn khí màng phổi    | 0.8698     | 0.9287     | 0.4828     |
-| Thâm nhiễm            | 0.7160     | 0.6883     | 0.5370     | 
-| **Trung bình**        | **0.8290** | **0.8356** | **0.5203** |
+- **Training**:
+  - `batch_size`: 16
+  - `num_epochs`: 50
+  - `patience`: 5
+  - `learning_rate`: 0.0001
 
-## Lưu ý
+## Sample Results 
 
-- Đảm bảo file `BBox_List_2017.csv` có các cột: `Image Index`, `Finding Label`, `Bbox [x`, `y`, `w`, `h]`.
-- Mô hình phân loại cần được huấn luyện trước để tạo heatmap cho phân đoạn.
-- Trực quan hóa trong `seg_test.py` giả định có font `arial.ttf` để vẽ text; nếu không có, sẽ dùng font mặc định.
+| Disease         | AUC        | Accuracy   | F1 Score   |
+|-----------------|------------|------------|------------|
+| Cardiomegaly    | 0.8769     | 0.9418     | 0.4200     |
+| Effusion        | 0.8781     | 0.8344     | 0.6488     |
+| Atelectasis     | 0.8042     | 0.7848     | 0.5131     |
+| Pneumothorax    | 0.8698     | 0.9287     | 0.4828     |
+| Infiltration    | 0.7160     | 0.6883     | 0.5370     |
+| **Average**     | **0.8290** | **0.8356** | **0.5203** |
+
+## Notes
+
+- Make sure `BBox_List_2017.csv` includes: `Image Index`, `Finding Label`, `Bbox [x`, `y`, `w`, `h]`
+- Classification model must be trained before generating segmentation heatmaps
+- `seg_test.py` assumes `arial.ttf` is available for drawing text. Falls back to default font if missing.
+
 
